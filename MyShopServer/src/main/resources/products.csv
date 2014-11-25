@@ -1,0 +1,1001 @@
+id,name,description,currency,amount
+1,eget nunc,Curabitur in libero ut massa volutpat convallis.,PLN,78.9
+2,lectus,Duis bibendum.,PLN,64.64
+3,nisi venenatis tristique fusce,Donec vitae nisi.,UAH,48.45
+4,massa donec,Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.,CNY,73.23
+5,nulla tempus vivamus in,Aenean fermentum. Donec ut mauris eget massa tempor convallis.,EUR,65.48
+6,integer ac,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.",CNY,27.06
+7,lobortis,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",IDR,70.81
+8,vestibulum velit id,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",CNY,75.07
+9,ligula pellentesque ultrices phasellus,Duis at velit eu est congue elementum.,GHS,35.1
+10,placerat ante nulla justo,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.,NGN,4.05
+11,in est risus,Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.,BRL,28.24
+12,arcu sed augue aliquam,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",AFN,63.2
+13,sapien ut nunc vestibulum,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.,HTG,42.94
+14,non,Vivamus tortor. Duis mattis egestas metus.,SZL,89.74
+15,at,Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.,CNY,50.91
+16,mi nulla ac,Praesent lectus.,EUR,18.03
+17,consequat varius,Etiam vel augue. Vestibulum rutrum rutrum neque.,EUR,78.22
+18,nam ultrices libero non,Maecenas pulvinar lobortis est.,BAM,71.7
+19,mauris non ligula,Suspendisse potenti.,RUB,73.03
+20,magnis,"Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",PHP,23.54
+21,congue risus semper,Curabitur at ipsum ac tellus semper interdum.,CNY,22.21
+22,eu,Curabitur gravida nisi at nibh.,CNY,63.66
+23,odio consequat,Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.,RUB,74.61
+24,nulla pede ullamcorper augue,Nullam porttitor lacus at turpis.,USD,34.99
+25,aliquam,Cras non velit nec nisi vulputate nonummy.,XAF,48.5
+26,neque sapien placerat,Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.,PHP,56.21
+27,mattis pulvinar nulla,Suspendisse potenti. Nullam porttitor lacus at turpis.,EUR,87.8
+28,pulvinar lobortis est,Pellentesque ultrices mattis odio. Donec vitae nisi.,EUR,29.54
+29,vel nulla eget,Suspendisse potenti. In eleifend quam a odio.,CDF,23.06
+30,quam suspendisse potenti,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.,HRK,73.85
+31,massa donec,Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.,PLN,46.35
+32,sed,"Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",CNY,43.26
+33,ac,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",IDR,61.74
+34,aenean,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",CNY,30.11
+35,amet,Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.,MAD,68.93
+36,turpis eget elit,Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.,IDR,37.06
+37,euismod scelerisque,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",ILS,81.42
+38,scelerisque,Cras in purus eu magna vulputate luctus.,EUR,39.64
+39,erat vestibulum sed magna,Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.,CDF,26.12
+40,id massa,"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",PLN,11.2
+41,tincidunt eu,Proin at turpis a pede posuere nonummy.,EUR,69.72
+42,montes nascetur,Donec semper sapien a libero. Nam dui.,RUB,2.16
+43,sed tristique in,Duis at velit eu est congue elementum. In hac habitasse platea dictumst.,PHP,55.96
+44,vivamus vestibulum sagittis sapien,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",UAH,71.48
+45,sapien in sapien iaculis,Phasellus sit amet erat.,CNY,64.97
+46,tortor id nulla ultrices,In quis justo. Maecenas rhoncus aliquam lacus.,CNY,79.69
+47,erat fermentum,Etiam pretium iaculis justo. In hac habitasse platea dictumst.,PHP,20.54
+48,pulvinar,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.",MKD,96.42
+49,vel,Vivamus vel nulla eget eros elementum pellentesque.,IDR,50.25
+50,varius integer ac,Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.,CNY,20.52
+51,sapien,In eleifend quam a odio.,PLN,68.11
+52,mi nulla ac enim,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",IDR,26.39
+53,velit,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",CNY,86.99
+54,primis in faucibus orci,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",IDR,48.57
+55,eget tempus,Vivamus vestibulum sagittis sapien.,CNY,90.26
+56,auctor sed,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.",EUR,74.13
+57,in,Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.,AZN,74.87
+58,sem duis aliquam convallis,"Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",CNY,6.96
+59,non,Donec dapibus.,CNY,37.28
+60,justo in blandit,Curabitur gravida nisi at nibh.,BRL,67.74
+61,in hac habitasse,Nunc purus. Phasellus in felis.,PHP,35.06
+62,ipsum,Suspendisse potenti. Nullam porttitor lacus at turpis.,PEN,54.01
+63,gravida,"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.",PHP,14.34
+64,eget nunc,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",SEK,38.74
+65,pede,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.",PHP,24.24
+66,convallis,Quisque ut erat.,MYR,90.37
+67,rutrum at lorem integer,Vivamus tortor. Duis mattis egestas metus.,IDR,83.11
+68,habitasse platea dictumst aliquam,Proin eu mi.,YER,88.34
+69,mi,Donec ut mauris eget massa tempor convallis.,MAD,27.27
+70,condimentum id,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",AFN,24.07
+71,cursus,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.,HRK,85.03
+72,vestibulum vestibulum,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",PHP,49.24
+73,mi in,Integer a nibh. In quis justo.,IDR,86.54
+74,libero non,In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.,EUR,9.97
+75,sapien iaculis,Morbi porttitor lorem id ligula.,COP,89.89
+76,felis fusce posuere felis,Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.,RUB,61.63
+77,lorem ipsum,Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.,USD,15.25
+78,donec,Aenean auctor gravida sem.,BRL,76.16
+79,mi pede malesuada,Sed ante. Vivamus tortor.,CNY,45.17
+80,justo pellentesque viverra pede,Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.,RUB,2.51
+81,nulla neque libero,Curabitur in libero ut massa volutpat convallis.,COP,32.1
+82,id nulla ultrices aliquet,Quisque ut erat.,MUR,3.03
+83,lacus curabitur at,"Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",EUR,37.92
+84,sagittis sapien,Nullam sit amet turpis elementum ligula vehicula consequat.,CNY,56.03
+85,vel lectus,Morbi quis tortor id nulla ultrices aliquet.,IDR,66.91
+86,luctus rutrum nulla,Phasellus in felis.,CNY,27.18
+87,consequat,Aenean auctor gravida sem.,EUR,52.33
+88,suspendisse potenti in eleifend,Fusce consequat. Nulla nisl. Nunc nisl.,CNY,23.97
+89,nec nisi,In hac habitasse platea dictumst. Etiam faucibus cursus urna.,CNY,33.53
+90,sodales scelerisque,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",LKR,72.6
+91,ut rhoncus,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.",CNY,27.11
+92,eu,In hac habitasse platea dictumst.,CNY,7.89
+93,hac,Donec semper sapien a libero.,UAH,15.14
+94,leo pellentesque ultrices mattis,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",CNY,17.24
+95,tempus vivamus in,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.",BYR,72.11
+96,placerat,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.,CNY,26.56
+97,sit,Etiam pretium iaculis justo.,UAH,19.28
+98,quam sapien,Aliquam quis turpis eget elit sodales scelerisque.,BRL,5.46
+99,interdum,Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.,CNY,29.54
+100,et ultrices,Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.,PLN,41.17
+101,nec,Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.,LKR,46.2
+102,justo morbi,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",RUB,92.12
+103,diam cras pellentesque volutpat,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.",PLN,97.56
+104,luctus et,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",THB,19.12
+105,rhoncus aliquam lacus morbi,"Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",BGN,9.71
+106,aenean,Vivamus vestibulum sagittis sapien.,PHP,60.57
+107,nascetur,Aliquam erat volutpat. In congue.,RUB,3.53
+108,dolor,"Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",THB,1.43
+109,cum sociis natoque,"Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",CNY,49.57
+110,felis,Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.,RUB,97.74
+111,quisque id justo sit,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",IDR,81.14
+112,dapibus dolor vel,"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",IDR,11.57
+113,libero convallis,Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.,USD,41.87
+114,pede venenatis non sodales,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",CNY,28.28
+115,sociis,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.,PKR,67.02
+116,eu magna vulputate luctus,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",CNY,96.38
+117,nulla tempus,Proin eu mi. Nulla ac enim.,EUR,67.41
+118,pede ac,Curabitur at ipsum ac tellus semper interdum.,EUR,1.77
+119,posuere felis,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.,PHP,68.11
+120,cursus urna ut,"Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.",CNY,78.57
+121,quis tortor,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.,IDR,39.7
+122,porttitor lorem id ligula,Donec vitae nisi.,SEK,76.57
+123,at nunc commodo placerat,Morbi quis tortor id nulla ultrices aliquet.,BDT,63.66
+124,posuere cubilia,Suspendisse potenti.,PLN,41.62
+125,vulputate,Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.,CNY,62.37
+126,sapien,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.",CNY,66.58
+127,nulla tempus vivamus in,"Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",UAH,39.71
+128,convallis,"Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",GBP,25.3
+129,vitae mattis,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",EUR,25.88
+130,nulla nisl nunc nisl,Donec dapibus. Duis at velit eu est congue elementum.,TZS,16.93
+131,sed justo pellentesque,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.",MXN,91.59
+132,sed magna at,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.",SEK,27.15
+133,lacinia aenean,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",CNY,33.62
+134,dui proin leo odio,Maecenas tincidunt lacus at velit.,CAD,98.21
+135,convallis morbi odio odio,Phasellus in felis. Donec semper sapien a libero. Nam dui.,PHP,60.89
+136,habitasse platea dictumst,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",MNT,38.81
+137,blandit mi,Duis bibendum.,JMD,65.45
+138,ut erat curabitur gravida,Donec ut dolor.,CAD,42.68
+139,neque,"Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",CNY,54.55
+140,scelerisque mauris,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.,ZAR,72.97
+141,convallis,"Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",CNY,56.58
+142,sit amet eros suspendisse,"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",CNY,37.67
+143,pellentesque ultrices mattis,Morbi non lectus.,IDR,23.16
+144,aenean auctor,"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.",PEN,40.18
+145,vestibulum sit amet,"Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",CNY,89.73
+146,donec ut mauris,Aenean fermentum.,ISK,45.19
+147,nunc vestibulum,Praesent lectus.,IDR,21.16
+148,elementum,Morbi vel lectus in quam fringilla rhoncus.,EUR,55.37
+149,placerat,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",BRL,7.4
+150,vitae,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.",USD,25.92
+151,malesuada in imperdiet,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",CNY,93.72
+152,nulla dapibus dolor,Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.,RUB,62.19
+153,posuere cubilia,Morbi quis tortor id nulla ultrices aliquet.,CNY,44.72
+154,id turpis integer,"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",CNY,24.63
+155,amet justo morbi ut,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",RUB,23.94
+156,felis,"Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",SEK,44.82
+157,sapien cum sociis,"Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.",TZS,73.11
+158,eget semper rutrum nulla,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",BRL,45.8
+159,faucibus,"Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",VND,37.19
+160,pede ullamcorper augue,Morbi ut odio.,PHP,40.43
+161,vitae,Nunc nisl.,CNY,32.27
+162,venenatis turpis enim,Morbi vel lectus in quam fringilla rhoncus.,PHP,68.74
+163,eu mi nulla,Nunc rhoncus dui vel sem. Sed sagittis.,USD,26.94
+164,varius integer ac leo,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",VEF,80.99
+165,lectus suspendisse potenti in,In hac habitasse platea dictumst.,IRR,80.26
+166,eget semper rutrum nulla,Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.,CNY,75.19
+167,accumsan tellus nisi,Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.,IDR,40.06
+168,curabitur convallis duis consequat,Fusce consequat. Nulla nisl. Nunc nisl.,BRL,60.26
+169,lectus suspendisse,Morbi vel lectus in quam fringilla rhoncus.,PHP,27.76
+170,augue,Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst.,BRL,81.1
+171,aliquam lacus morbi,Aliquam erat volutpat. In congue.,CAD,14.22
+172,in lacus curabitur at,Aliquam sit amet diam in magna bibendum imperdiet.,NOK,7.81
+173,varius,Donec semper sapien a libero.,IDR,52.25
+174,elit sodales scelerisque mauris,Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.,BAM,60.71
+175,enim in,Nulla nisl. Nunc nisl.,PHP,28.46
+176,bibendum morbi non quam,Donec posuere metus vitae ipsum. Aliquam non mauris.,CNY,62.56
+177,est risus,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.,CNY,68.62
+178,dui luctus rutrum nulla,Nunc purus.,CNY,45.37
+179,interdum venenatis turpis enim,Sed accumsan felis.,COP,15.94
+180,rutrum,Duis at velit eu est congue elementum.,EUR,8.55
+181,nec,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",USD,19.58
+182,orci luctus et,Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.,EUR,13.71
+183,posuere cubilia,In hac habitasse platea dictumst.,IDR,42.53
+184,nulla dapibus,Sed ante. Vivamus tortor.,NGN,75.92
+185,aliquet pulvinar,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",CZK,22.92
+186,dapibus nulla suscipit,Donec ut dolor.,TZS,71.38
+187,sagittis sapien cum sociis,Nulla tellus. In sagittis dui vel nisl.,KZT,41.49
+188,nascetur ridiculus mus etiam,"Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",SEK,25.77
+189,curabitur at ipsum ac,"Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",THB,48.72
+190,sagittis,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",RSD,74.23
+191,accumsan felis ut,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.",CNY,22.36
+192,lacus,Maecenas tincidunt lacus at velit.,PLN,89.34
+193,ultrices phasellus id,"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",MGA,45.49
+194,consectetuer eget rutrum,In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.,RUB,95.19
+195,molestie nibh,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",GEL,42.69
+196,dui luctus rutrum,Fusce posuere felis sed lacus.,COP,38.8
+197,magnis dis parturient,Donec vitae nisi.,CNY,77.16
+198,ante vestibulum,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.",BRL,45.4
+199,congue elementum in,Nullam porttitor lacus at turpis.,BRL,58.87
+200,tortor duis mattis,Sed accumsan felis.,SEK,71.42
+201,sapien iaculis,Aenean sit amet justo.,PHP,86.84
+202,nullam varius,Vivamus tortor.,IDR,54.32
+203,nunc commodo placerat praesent,Duis bibendum.,MGA,24.16
+204,integer aliquet,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.",CNY,96.27
+205,donec semper sapien,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.,NGN,44.61
+206,sed nisl nunc rhoncus,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",CHF,4.44
+207,natoque penatibus,Pellentesque ultrices mattis odio. Donec vitae nisi.,RUB,51.86
+208,integer ac,Nulla ut erat id mauris vulputate elementum. Nullam varius.,CNY,29.83
+209,adipiscing lorem vitae,"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",IDR,3.51
+210,eleifend quam,Integer non velit.,PLN,19.42
+211,at,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",EUR,67.87
+212,sem,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.",CNY,11.23
+213,faucibus cursus urna ut,Phasellus in felis.,ALL,45.79
+214,viverra diam vitae,Aliquam quis turpis eget elit sodales scelerisque.,USD,8.99
+215,magnis,Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.,CAD,94.72
+216,mauris eget massa tempor,"Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",CNY,17.02
+217,dolor quis odio,"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",RUB,12.21
+218,sapien cursus vestibulum proin,Etiam faucibus cursus urna. Ut tellus.,CNY,13.09
+219,ut,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",USD,55.76
+220,eget vulputate,"Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",MDL,76.48
+221,et magnis dis parturient,Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.,CAD,93.46
+222,nulla sed,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.",RUB,69.17
+223,rhoncus sed,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.",TND,60.16
+224,sit amet erat nulla,"Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",PLN,3.83
+225,lacus,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",RUB,30.44
+226,eros,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",EUR,99.81
+227,ultrices enim,Aenean fermentum. Donec ut mauris eget massa tempor convallis.,COP,23.74
+228,neque sapien placerat ante,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",CNY,72.39
+229,morbi,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.,EUR,14.27
+230,sit amet erat,"Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",MNT,73.39
+231,ut volutpat sapien,Ut at dolor quis odio consequat varius. Integer ac leo.,SEK,10.85
+232,fermentum,Pellentesque ultrices mattis odio.,IDR,71.5
+233,sit amet lobortis sapien,In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.,PKR,46.63
+234,cursus id,Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.,THB,91.68
+235,dolor sit,Pellentesque at nulla. Suspendisse potenti.,CNY,82.68
+236,non,"Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",CNY,13.81
+237,augue,Donec semper sapien a libero.,CNY,77.12
+238,rutrum nulla,Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.,EUR,94.77
+239,mi sit amet,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.,CNY,40.63
+240,pellentesque ultrices mattis,In sagittis dui vel nisl. Duis ac nibh.,PHP,42.02
+241,habitasse platea,Nulla suscipit ligula in lacus.,CNY,62.67
+242,tincidunt,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",BYR,18.93
+243,praesent blandit nam,Suspendisse potenti.,EUR,30.24
+244,consequat dui nec nisi,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",EUR,97.18
+245,imperdiet,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",IDR,67.21
+246,cubilia curae donec pharetra,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.,IDR,71.08
+247,ultrices mattis odio,Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.,CNY,68.6
+248,aliquam non,"Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",SEK,50.25
+249,mauris lacinia sapien,In hac habitasse platea dictumst.,IDR,54.99
+250,vestibulum,In quis justo. Maecenas rhoncus aliquam lacus.,BAM,34.81
+251,in hac habitasse platea,Nulla mollis molestie lorem. Quisque ut erat.,EUR,5.3
+252,aliquam,Duis consequat dui nec nisi volutpat eleifend.,PLN,48.59
+253,integer,"Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",SEK,65.41
+254,sem,"Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",PHP,18.84
+255,viverra eget congue,Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.,CUP,30.95
+256,pede morbi porttitor,Suspendisse accumsan tortor quis turpis. Sed ante.,JPY,25.59
+257,amet,Nunc purus.,PHP,85.14
+258,ultrices,"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",PLN,53.15
+259,sem,"Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",PLN,54.75
+260,ut at dolor,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.,MXN,63.17
+261,sit amet eros,"Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",CNY,71.53
+262,sagittis nam,Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.,EUR,74.85
+263,sed magna at nunc,Vivamus in felis eu sapien cursus vestibulum.,CNY,8.85
+264,id luctus nec,Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.,NGN,13.96
+265,curabitur convallis duis,Donec posuere metus vitae ipsum.,NOK,40.91
+266,in imperdiet,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",IDR,4.28
+267,duis consequat dui nec,Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.,EUR,88.95
+268,enim in tempor turpis,Quisque id justo sit amet sapien dignissim vestibulum.,THB,43.5
+269,praesent blandit,Duis at velit eu est congue elementum.,TTD,36.15
+270,maecenas pulvinar lobortis est,In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.,UAH,52.41
+271,velit vivamus vel nulla,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",BOB,13.01
+272,vivamus,Praesent id massa id nisl venenatis lacinia.,IDR,44.05
+273,in faucibus,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.,SYP,34.84
+274,lorem,Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.,IDR,2.26
+275,ante vivamus tortor,Vestibulum sed magna at nunc commodo placerat. Praesent blandit.,PHP,98.09
+276,tristique tortor eu pede,Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.,CNY,20.4
+277,lectus,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",PAB,17.19
+278,vel,Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.,MMK,8.41
+279,phasellus,Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.,CUP,50.71
+280,dui maecenas tristique est,In quis justo. Maecenas rhoncus aliquam lacus.,EUR,32.67
+281,vel accumsan tellus,Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.,PLN,8.67
+282,mauris laoreet ut,"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",CNY,92.18
+283,a nibh,Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.,MNT,70.5
+284,pretium quis lectus suspendisse,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.",CNY,47.48
+285,vestibulum sit amet cursus,"Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.",SEK,96.07
+286,tempus semper est quam,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",IDR,59.88
+287,posuere,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",IDR,3.13
+288,ullamcorper augue a,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",CNY,73.27
+289,in,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.",CNY,56.07
+290,in lacus,Nunc rhoncus dui vel sem. Sed sagittis.,IDR,18.44
+291,est phasellus sit amet,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.,AMD,58.81
+292,vel nisl duis,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",JPY,74.05
+293,phasellus in felis donec,"Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",PEN,27.78
+294,interdum mauris non ligula,"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.",IDR,24.64
+295,in est risus,"Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",CNY,82.16
+296,in faucibus,Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.,MNT,51.93
+297,turpis eget,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.,CNY,30.15
+298,sollicitudin vitae,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",EUR,78.08
+299,sed,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.,JPY,96.49
+300,interdum venenatis turpis,Maecenas rhoncus aliquam lacus.,BYR,56.34
+301,fusce posuere felis sed,Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.,CNY,23.21
+302,ipsum,Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.,EUR,14.1
+303,libero ut massa,Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.,RUB,58.58
+304,pede posuere nonummy integer,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",CNY,11.76
+305,non velit,Suspendisse potenti. Cras in purus eu magna vulputate luctus.,JPY,92.46
+306,faucibus orci luctus,"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.",ARS,81.28
+307,suscipit a,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",PHP,31.89
+308,mi pede malesuada in,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",EUR,88.9
+309,augue,"Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.",EUR,89.9
+310,etiam justo etiam,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",CLP,80.64
+311,mauris enim leo rhoncus,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.",CNY,65.57
+312,dictumst aliquam,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.",LTL,9.96
+313,congue diam,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.",PHP,33.07
+314,dictumst maecenas ut massa,"Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",CNY,75.68
+315,libero nullam sit amet,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",CNY,67.07
+316,porttitor lorem id,Morbi vel lectus in quam fringilla rhoncus.,NOK,70.93
+317,justo nec condimentum,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",KMF,57.87
+318,vel,"Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",XOF,9.87
+319,dignissim vestibulum,Sed ante. Vivamus tortor.,MXN,51.38
+320,purus aliquet,Pellentesque at nulla. Suspendisse potenti.,PHP,14.71
+321,eros,Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.,CNY,46.27
+322,lorem id ligula suspendisse,Nulla facilisi.,PHP,13.47
+323,varius nulla facilisi cras,In quis justo. Maecenas rhoncus aliquam lacus.,IDR,63.54
+324,eu nibh quisque id,"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.",EUR,56.49
+325,odio,In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.,RUB,75.91
+326,quis orci eget orci,Mauris sit amet eros.,IDR,80.5
+327,curae nulla dapibus dolor,In eleifend quam a odio. In hac habitasse platea dictumst.,BRL,94.28
+328,imperdiet et commodo,In sagittis dui vel nisl.,PLN,86.55
+329,nullam varius nulla,Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.,CNY,78.81
+330,vestibulum aliquet,Suspendisse ornare consequat lectus.,CNY,8.29
+331,pretium iaculis justo,Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.,ARS,84.41
+332,justo in hac,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.,USD,52.58
+333,nulla sed,Duis bibendum. Morbi non quam nec dui luctus rutrum.,EUR,86.22
+334,interdum eu,Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.,IDR,86.49
+335,at velit vivamus vel,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.",GEL,93.7
+336,eget rutrum at lorem,Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.,IDR,98.21
+337,felis,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.",IDR,34.07
+338,tempus,"Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",EUR,9.27
+339,vulputate,Nunc nisl.,EUR,5.06
+340,lacus,Nunc purus. Phasellus in felis.,BAM,80.69
+341,in quam fringilla,"Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.",RUB,11.23
+342,pede justo,Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.,MWK,22.01
+343,justo in blandit,"Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",CNY,32.05
+344,in felis eu sapien,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",PHP,55.04
+345,eget nunc donec,Etiam justo. Etiam pretium iaculis justo.,EUR,69.5
+346,pretium iaculis justo in,Aliquam quis turpis eget elit sodales scelerisque.,CNY,59.11
+347,odio odio elementum,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.",XOF,16.92
+348,eros suspendisse,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",VND,57.03
+349,eget semper,In eleifend quam a odio.,RUB,30.35
+350,accumsan tortor quis turpis,In congue. Etiam justo.,CNY,15.06
+351,arcu,Nulla facilisi. Cras non velit nec nisi vulputate nonummy.,PHP,48.42
+352,ullamcorper purus sit,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.,CNY,35.05
+353,id nisl,"Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.",CNY,95.24
+354,tellus nulla ut erat,"In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",EUR,86.82
+355,ac diam cras,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",ILS,57.29
+356,ac lobortis vel dapibus,Duis consequat dui nec nisi volutpat eleifend.,AFN,48.13
+357,odio condimentum,Maecenas tincidunt lacus at velit.,PHP,61.86
+358,pede lobortis,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.",EUR,75.5
+359,augue vel,Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.,CLP,98.65
+360,eget tincidunt eget tempus,Fusce consequat.,CZK,15.37
+361,vel dapibus at,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",EUR,12.3
+362,nunc vestibulum ante ipsum,"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",MXN,24.32
+363,curae donec pharetra,"Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",EUR,51.57
+364,enim,Morbi a ipsum. Integer a nibh.,CNY,56.05
+365,integer ac,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",EUR,29.43
+366,vel ipsum praesent,Morbi a ipsum. Integer a nibh. In quis justo.,KGS,90.39
+367,leo pellentesque ultrices mattis,Donec ut mauris eget massa tempor convallis.,BRL,65.63
+368,posuere metus,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",XOF,35.57
+369,dui maecenas,Duis mattis egestas metus. Aenean fermentum.,IDR,96.57
+370,pellentesque ultrices mattis odio,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",RUB,17.81
+371,tellus semper interdum mauris,Ut at dolor quis odio consequat varius. Integer ac leo.,PEN,30.41
+372,lorem,Suspendisse potenti. Cras in purus eu magna vulputate luctus.,RUB,23.73
+373,ante ipsum primis,"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",CNY,53.86
+374,ut mauris,Duis at velit eu est congue elementum. In hac habitasse platea dictumst.,MXN,84.45
+375,suscipit a feugiat et,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",BGN,66.12
+376,nulla nunc,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.,PLN,44.66
+377,montes nascetur ridiculus mus,Aenean lectus.,IDR,86.61
+378,arcu libero rutrum ac,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",USD,55.46
+379,ultrices vel augue vestibulum,Vivamus in felis eu sapien cursus vestibulum.,JPY,73.59
+380,ac diam,Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.,DOP,81.6
+381,gravida,Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.,AZN,32.27
+382,sed justo pellentesque viverra,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.",PHP,5.9
+383,vulputate,In hac habitasse platea dictumst.,USD,36.27
+384,leo maecenas pulvinar,"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",CNY,59.39
+385,non lectus aliquam,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.",PHP,64.9
+386,elementum pellentesque,Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.,AZN,55.81
+387,hac habitasse platea dictumst,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.",EUR,54.38
+388,quis libero nullam sit,"Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",DOP,25.47
+389,donec dapibus,"In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.",LRD,38.74
+390,fringilla rhoncus mauris,Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.,AMD,56.03
+391,amet,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus.",CAD,27.91
+392,scelerisque mauris,Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.,IDR,89.54
+393,vel nisl duis,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.,CNY,74.2
+394,commodo vulputate justo,Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.,COP,7.52
+395,purus,Nulla facilisi. Cras non velit nec nisi vulputate nonummy.,USD,45.02
+396,imperdiet sapien urna pretium,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.,ILS,4.62
+397,sit,Donec vitae nisi.,UAH,73.07
+398,at lorem,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",IDR,38.42
+399,habitasse platea dictumst morbi,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",CNY,64.58
+400,cras mi pede malesuada,Maecenas ut massa quis augue luctus tincidunt.,CLP,84.82
+401,ridiculus mus vivamus,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.,DOP,82.83
+402,ut tellus nulla ut,Nulla facilisi. Cras non velit nec nisi vulputate nonummy.,CNY,15.24
+403,vitae,Donec ut dolor.,HRK,6.5
+404,in,Nulla nisl.,BRL,78.96
+405,interdum mauris ullamcorper purus,"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",BRL,70.61
+406,vulputate,"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",IDR,48.3
+407,odio donec vitae nisi,Aliquam quis turpis eget elit sodales scelerisque.,BGN,64.61
+408,penatibus et magnis,"Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",RUB,33.3
+409,tempus vel pede morbi,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.,USD,86.74
+410,nisi,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",CNY,76.11
+411,nisi venenatis tristique fusce,In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.,BRL,20.24
+412,semper porta,Nam dui.,CRC,12.51
+413,in,Morbi non lectus.,KHR,5.59
+414,condimentum,Integer tincidunt ante vel ipsum.,MGA,93.7
+415,at turpis a pede,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",CNY,87.07
+416,venenatis lacinia,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.,EUR,26.94
+417,ipsum primis in faucibus,"Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.",IDR,28.34
+418,massa quis augue luctus,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.,CNY,25.2
+419,ac,Nunc nisl.,CNY,17.81
+420,quis,Morbi vel lectus in quam fringilla rhoncus.,SEK,2.71
+421,mauris viverra,"Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.",PHP,33.99
+422,at,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.,CNY,17.8
+423,ornare,"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.",IRR,90.52
+424,gravida sem,Praesent id massa id nisl venenatis lacinia.,UAH,72.94
+425,pede morbi,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",RUB,85.24
+426,commodo,Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.,EUR,42.26
+427,nunc nisl duis bibendum,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",BRL,51.19
+428,in,Nulla tellus. In sagittis dui vel nisl.,IDR,42.52
+429,at nibh in hac,In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.,RUB,22.15
+430,maecenas leo,Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.,SEK,64.97
+431,sit amet eleifend pede,"Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",USD,13.09
+432,gravida nisi,Nulla nisl. Nunc nisl.,LTL,18.9
+433,eu mi,"Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.",CNY,31.33
+434,in magna,Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.,SEK,67.58
+435,pretium,Proin risus. Praesent lectus.,UAH,58.99
+436,dolor morbi,In hac habitasse platea dictumst.,SEK,70.1
+437,donec,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.",EUR,90.25
+438,ante ipsum primis,Fusce consequat. Nulla nisl.,RUB,37.33
+439,elementum nullam varius,In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.,BAM,36.01
+440,ligula nec sem duis,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.,CNY,34.94
+441,vestibulum,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",JPY,90.71
+442,dui,Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.,BGN,27.29
+443,nulla sed accumsan felis,"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.",BMD,93.54
+444,aliquet,Nam tristique tortor eu pede.,EUR,73.1
+445,sed accumsan felis,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",IDR,18.6
+446,lectus,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",CNY,70.35
+447,etiam faucibus,Etiam pretium iaculis justo.,AOA,17.01
+448,risus semper porta volutpat,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",CNY,8.55
+449,eu pede,Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.,CNY,67.93
+450,leo maecenas pulvinar lobortis,Proin interdum mauris non ligula pellentesque ultrices.,BRL,87.21
+451,in faucibus orci,Morbi porttitor lorem id ligula.,UAH,42.06
+452,mattis nibh ligula nec,"In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.",CNY,32.38
+453,eget congue,Suspendisse potenti. Cras in purus eu magna vulputate luctus.,IDR,65.95
+454,in faucibus orci,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",EUR,41.66
+455,quisque arcu libero rutrum,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",CNY,34.95
+456,vivamus,"Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",JPY,63.9
+457,sem mauris,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",SEK,68.77
+458,sapien,"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",TZS,35.61
+459,praesent,"Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",CVE,54.97
+460,suspendisse potenti in,Duis consequat dui nec nisi volutpat eleifend.,IDR,9.95
+461,aliquet ultrices,Praesent id massa id nisl venenatis lacinia.,EUR,19.27
+462,platea,Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.,VND,64.36
+463,nulla mollis molestie,"Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",USD,45.92
+464,morbi ut odio,Nulla facilisi. Cras non velit nec nisi vulputate nonummy.,RUB,35.39
+465,vestibulum aliquet ultrices,Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.,RUB,72.87
+466,vulputate,"In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",ZAR,46.43
+467,sapien urna pretium,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",BRL,59.95
+468,non,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.,JPY,93.37
+469,elementum in hac habitasse,Morbi quis tortor id nulla ultrices aliquet.,CNY,93.24
+470,aliquam quis,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",EUR,57.15
+471,dictumst morbi vestibulum,Integer ac leo. Pellentesque ultrices mattis odio.,BRL,25.41
+472,nec sem duis aliquam,Duis consequat dui nec nisi volutpat eleifend.,KES,37.64
+473,facilisi cras non,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",IDR,34.65
+474,diam erat fermentum,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",USD,62
+475,tortor,Fusce posuere felis sed lacus.,BRL,88.4
+476,risus praesent lectus,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",CUP,87.58
+477,vivamus,"In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",UGX,82.4
+478,ipsum ac,"Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",SEK,96.11
+479,fusce,Donec semper sapien a libero. Nam dui.,PLN,31.35
+480,sagittis sapien cum sociis,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.,CAD,53.56
+481,pellentesque,Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.,PHP,9.21
+482,commodo vulputate justo in,Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.,IDR,53.38
+483,eget nunc donec,Duis aliquam convallis nunc.,PLN,70.17
+484,suscipit a feugiat et,Donec posuere metus vitae ipsum.,IDR,52.05
+485,maecenas pulvinar,Nulla ac enim.,IDR,85.37
+486,dui,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",EUR,8.09
+487,aenean fermentum donec,Curabitur gravida nisi at nibh.,EUR,75.25
+488,orci luctus et ultrices,Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.,CRC,52.4
+489,lorem ipsum,"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",CNY,57.84
+490,blandit lacinia erat vestibulum,Aenean fermentum. Donec ut mauris eget massa tempor convallis.,CRC,35.67
+491,congue,In eleifend quam a odio. In hac habitasse platea dictumst.,BBD,5.26
+492,mauris lacinia sapien,Etiam pretium iaculis justo.,PHP,49.22
+493,diam,Proin eu mi. Nulla ac enim.,IDR,55.81
+494,id turpis integer,"Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.",IQD,24.83
+495,cursus id,In sagittis dui vel nisl. Duis ac nibh.,CZK,79.02
+496,aliquet ultrices,"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",RUB,60.51
+497,habitasse platea,Pellentesque viverra pede ac diam.,EUR,32.44
+498,purus,In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.,CNY,10.06
+499,in hac habitasse platea,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",EUR,15.69
+500,venenatis lacinia,Donec posuere metus vitae ipsum. Aliquam non mauris.,VND,61.25
+501,proin,In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.,EUR,79.66
+502,at ipsum,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",PEN,97.12
+503,duis,Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.,HNL,76.7
+504,turpis enim,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",USD,52.56
+505,velit donec diam,"Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",CNY,42.88
+506,volutpat eleifend donec ut,"In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.",CNY,24.36
+507,libero nullam sit amet,Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.,IDR,79.97
+508,lacinia aenean sit,"Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",BRL,19.21
+509,fusce posuere felis sed,Nullam varius. Nulla facilisi.,CNY,56.78
+510,egestas metus aenean,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",YER,32.01
+511,ipsum,Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.,HNL,2.65
+512,fringilla,In sagittis dui vel nisl. Duis ac nibh.,EUR,35.11
+513,ac consequat,"Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",CNY,53.07
+514,augue quam,Fusce consequat. Nulla nisl. Nunc nisl.,SAR,46.77
+515,aliquam non,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",UAH,63.63
+516,aenean,Nullam molestie nibh in lectus. Pellentesque at nulla.,CNY,9.12
+517,venenatis,Phasellus in felis. Donec semper sapien a libero. Nam dui.,IDR,65.43
+518,at nunc commodo,Nulla facilisi. Cras non velit nec nisi vulputate nonummy.,PLN,17.53
+519,pede libero quis,Vestibulum rutrum rutrum neque.,EUR,46.22
+520,suspendisse accumsan tortor,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.,PHP,38.26
+521,phasellus in felis,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",TZS,49.57
+522,augue quam sollicitudin,Morbi quis tortor id nulla ultrices aliquet.,PLN,58.72
+523,ligula suspendisse,"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.",CNY,29.97
+524,fringilla rhoncus,Etiam justo.,PLN,39.66
+525,vel nisl duis ac,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",PLN,74.29
+526,leo odio,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",CAD,24.17
+527,justo pellentesque viverra pede,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",UAH,30.38
+528,amet cursus,Pellentesque ultrices mattis odio. Donec vitae nisi.,USD,8.24
+529,vestibulum rutrum,Curabitur in libero ut massa volutpat convallis.,CNY,18.28
+530,suscipit ligula,Phasellus sit amet erat. Nulla tempus.,CNY,57.29
+531,non pretium,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",CAD,90.05
+532,sed augue aliquam erat,Aenean lectus.,UAH,27.36
+533,imperdiet et,Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.,CNY,88.68
+534,felis ut at,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",IDR,58.27
+535,nam ultrices,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.",BRL,91.15
+536,pretium iaculis,"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",RUB,15.37
+537,mattis egestas,Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.,PHP,93.24
+538,metus,"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.",RUB,46.09
+539,turpis elementum ligula,"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",EUR,25.28
+540,faucibus orci luctus et,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",CNY,18.69
+541,eu,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.,THB,7.11
+542,eget congue eget semper,Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.,XOF,10.34
+543,tincidunt eu felis fusce,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.,EUR,55.44
+544,eleifend quam a odio,Vestibulum sed magna at nunc commodo placerat. Praesent blandit.,PHP,53.51
+545,lorem ipsum dolor,Aliquam erat volutpat. In congue. Etiam justo.,IDR,93.49
+546,venenatis,"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",EUR,15.97
+547,nullam molestie nibh,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.,CZK,65.12
+548,felis fusce,In hac habitasse platea dictumst.,CNY,52.99
+549,quis tortor id nulla,"Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",CNY,60.26
+550,volutpat convallis morbi,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.",JPY,54.11
+551,felis fusce,"Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",PHP,65.31
+552,imperdiet,Ut tellus.,USD,44.26
+553,nec nisi volutpat,Pellentesque at nulla. Suspendisse potenti.,PLN,37.19
+554,sed,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.,SEK,56.35
+555,arcu libero rutrum,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",CNY,90.36
+556,integer non,"Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",CNY,19.79
+557,sit amet,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",IDR,76.86
+558,in,"Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",NZD,87.49
+559,dolor quis odio consequat,"Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.",MXN,66.03
+560,libero,Nunc nisl.,COP,62.31
+561,erat quisque erat eros,"Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",EUR,5.79
+562,sagittis nam congue,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",BAM,7.01
+563,cras mi,Fusce consequat.,PHP,67.8
+564,nec sem duis aliquam,Integer tincidunt ante vel ipsum.,CNY,56.23
+565,convallis eget eleifend luctus,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.,IDR,97.62
+566,duis ac nibh,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.",RUB,91.15
+567,ligula in lacus curabitur,Quisque ut erat.,CZK,37.79
+568,ullamcorper,Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.,NIO,51.38
+569,vel pede morbi,"Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",IDR,12.72
+570,posuere felis sed,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.",BRL,95.91
+571,vestibulum sit,In hac habitasse platea dictumst.,PLN,45.69
+572,nibh ligula,Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.,XPF,94.18
+573,vestibulum ante ipsum primis,Vivamus vestibulum sagittis sapien.,CNY,49.95
+574,aliquam non,Nullam varius. Nulla facilisi.,EUR,14.59
+575,faucibus orci luctus,Phasellus id sapien in sapien iaculis congue.,EUR,92.06
+576,odio,"Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",EUR,41.86
+577,curae nulla dapibus dolor,Duis mattis egestas metus.,BRL,55.59
+578,iaculis congue vivamus metus,"Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",UAH,16.44
+579,est lacinia,Nulla nisl. Nunc nisl.,VND,56.1
+580,aliquet massa,Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.,BRL,26.44
+581,rhoncus aliquet pulvinar sed,Pellentesque at nulla.,CNY,45.47
+582,eget eros elementum,Nunc purus. Phasellus in felis.,IDR,52.76
+583,volutpat dui,Quisque ut erat.,CNY,84.07
+584,velit id,"Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",CNY,82.67
+585,pulvinar nulla,Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.,IDR,39.59
+586,pede,Morbi a ipsum. Integer a nibh.,BYR,42.54
+587,libero quis orci,Quisque ut erat. Curabitur gravida nisi at nibh.,YER,39.68
+588,morbi quis,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",HNL,98.54
+589,consequat nulla,Integer tincidunt ante vel ipsum.,BYR,70.23
+590,ipsum dolor sit,"Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",RUB,98.73
+591,lectus in quam,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",JPY,76.16
+592,at lorem integer,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.,EUR,43.18
+593,tellus in,Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.,XAF,46.22
+594,eget eleifend luctus ultricies,Vivamus vel nulla eget eros elementum pellentesque.,AFN,45.85
+595,molestie hendrerit at vulputate,Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.,TND,63.63
+596,posuere cubilia,Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.,CNY,53.68
+597,fusce lacus,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.",PHP,29.82
+598,est lacinia nisi,Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.,EUR,83.46
+599,id mauris vulputate elementum,Quisque ut erat.,RUB,82.8
+600,congue diam id ornare,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.,IDR,15.59
+601,quis lectus suspendisse potenti,Sed vel enim sit amet nunc viverra dapibus.,USD,17.37
+602,ante ipsum primis,Integer a nibh.,CAD,4.23
+603,libero ut,Pellentesque at nulla.,BRL,21.48
+604,metus aenean,Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.,IDR,30.26
+605,dui vel,Maecenas ut massa quis augue luctus tincidunt.,CNY,10.99
+606,sapien,Morbi quis tortor id nulla ultrices aliquet.,PEN,15.76
+607,dui luctus,Suspendisse ornare consequat lectus.,PHP,55.66
+608,lectus in,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",CNY,58.63
+609,enim blandit mi,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.",ARS,72.97
+610,ligula suspendisse ornare,Nunc purus. Phasellus in felis.,CNY,47.26
+611,ullamcorper,"Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",PHP,47.62
+612,vestibulum rutrum,Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.,KRW,37.98
+613,in eleifend,Praesent blandit lacinia erat.,MNT,38.95
+614,eleifend donec,In eleifend quam a odio. In hac habitasse platea dictumst.,CNY,41.8
+615,ultrices posuere cubilia curae,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",IDR,45.34
+616,sapien non,Aenean lectus.,CNY,82.82
+617,quam,In hac habitasse platea dictumst.,EUR,76.21
+618,justo nec,Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.,AOA,22.31
+619,vitae ipsum aliquam,Pellentesque ultrices mattis odio. Donec vitae nisi.,CNY,75.73
+620,scelerisque quam,Nulla justo.,CAD,67.35
+621,pretium nisl ut,"Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",EUR,12.07
+622,accumsan odio curabitur,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",SEK,86.86
+623,id,Maecenas ut massa quis augue luctus tincidunt.,PEN,58.52
+624,elementum pellentesque quisque porta,Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.,EUR,17.79
+625,donec diam neque vestibulum,Nam dui.,CZK,15.53
+626,elementum nullam varius nulla,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",CNY,13.74
+627,cubilia,"Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.",NOK,87.92
+628,congue elementum in hac,"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",CNY,62.08
+629,imperdiet nullam orci pede,"In est risus, auctor sed, tristique in, tempus sit amet, sem.",RUB,90.87
+630,nulla,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",PEN,8.47
+631,quisque arcu libero,"Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",PLN,70.95
+632,massa donec dapibus duis,Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.,CNY,38.3
+633,faucibus orci luctus,Phasellus in felis.,CNY,2.71
+634,sed ante vivamus,Donec dapibus.,IDR,14.1
+635,vestibulum ante ipsum primis,Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.,ZAR,29.23
+636,odio curabitur convallis,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.,DOP,23.42
+637,sapien,"Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",CAD,13.61
+638,a odio,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.",EUR,33.51
+639,nulla mollis molestie lorem,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",CNY,32.53
+640,mattis pulvinar,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",IRR,94.67
+641,massa id nisl venenatis,"Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",MXN,30.24
+642,donec semper sapien,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",MUR,60.56
+643,est risus auctor sed,In sagittis dui vel nisl. Duis ac nibh.,CNY,2.72
+644,ultrices erat,Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.,CNY,85.08
+645,vel ipsum praesent blandit,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",IDR,38.25
+646,eu massa,Integer ac neque. Duis bibendum.,IDR,18.63
+647,tempus sit amet sem,Duis bibendum.,CNY,30.79
+648,posuere,"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",EUR,26.75
+649,in hac habitasse,Mauris lacinia sapien quis libero.,IRR,29.5
+650,at lorem integer tincidunt,Suspendisse potenti. Cras in purus eu magna vulputate luctus.,THB,78.33
+651,maecenas leo odio condimentum,"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.",CNY,31.4
+652,sapien arcu sed,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.",IDR,57.47
+653,lacus,Nullam sit amet turpis elementum ligula vehicula consequat.,IRR,65.11
+654,non pretium quis lectus,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",CNY,41.62
+655,nunc nisl duis,Aliquam non mauris. Morbi non lectus.,UAH,38.51
+656,sed tristique,Praesent lectus.,BRL,6.76
+657,mollis,"Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",TZS,82.19
+658,montes nascetur ridiculus mus,Morbi a ipsum. Integer a nibh. In quis justo.,BRL,7.84
+659,tincidunt ante,Integer ac neque. Duis bibendum.,BRL,75.85
+660,quam fringilla,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",CNY,47.38
+661,amet eros suspendisse,Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.,PLN,1.83
+662,interdum venenatis turpis,Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.,CNY,5.15
+663,blandit,"Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",CNY,43.52
+664,tristique est,"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",EUR,95.25
+665,quam fringilla,Vivamus tortor.,RUB,25.68
+666,suspendisse accumsan tortor,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.,PLN,1.64
+667,est et tempus semper,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.",MYR,5.95
+668,lacus,In congue.,LKR,32.35
+669,sed nisl nunc,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",PHP,91.82
+670,turpis,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.",THB,49.56
+671,accumsan tortor,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.",IDR,99.83
+672,venenatis non sodales sed,Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.,VND,67.85
+673,purus aliquet,Vivamus vel nulla eget eros elementum pellentesque.,USD,22.17
+674,purus phasellus in felis,Fusce posuere felis sed lacus.,NPR,32.96
+675,magnis dis parturient montes,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",MNT,44.8
+676,aenean,"Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",CZK,64.04
+677,donec,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",ARS,18.62
+678,phasellus id,Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.,GTQ,91.64
+679,felis eu,Vivamus tortor. Duis mattis egestas metus.,CNY,6.62
+680,rutrum at lorem,Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.,RUB,80.92
+681,nisi vulputate nonummy maecenas,"Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.",EUR,83.35
+682,tortor quis,Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.,USD,90.73
+683,porttitor id consequat,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",CNY,28.64
+684,sit amet,In hac habitasse platea dictumst.,IDR,55.91
+685,viverra dapibus,Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.,IDR,87.49
+686,in hac,Aliquam erat volutpat.,CNY,62.81
+687,fusce consequat nulla nisl,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",USD,61.49
+688,id,"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",USD,89.23
+689,nulla mollis molestie,Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.,EUR,18.95
+690,vivamus tortor,Mauris ullamcorper purus sit amet nulla.,CNY,2.56
+691,neque libero convallis eget,Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.,MAD,14.4
+692,facilisi cras,In eleifend quam a odio.,EGP,57.85
+693,morbi,"In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",BRL,85.81
+694,morbi vestibulum velit id,Cras in purus eu magna vulputate luctus.,CNY,17.5
+695,posuere metus vitae ipsum,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.",EUR,58.04
+696,morbi a ipsum integer,Phasellus in felis.,AMD,90.37
+697,curabitur at,Nam tristique tortor eu pede.,JMD,36.03
+698,massa id nisl,Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.,IDR,36.75
+699,maecenas tincidunt lacus at,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.,JPY,51.4
+700,potenti nullam porttitor,"Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",CNY,11.08
+701,mattis egestas,In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.,JPY,34.24
+702,tellus in sagittis dui,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",CNY,43.89
+703,nunc commodo placerat,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",IRR,55.53
+704,integer ac,Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.,CZK,60.74
+705,molestie nibh,Sed accumsan felis. Ut at dolor quis odio consequat varius.,IDR,61.93
+706,vel sem sed sagittis,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",IDR,44.83
+707,purus phasellus,Etiam pretium iaculis justo.,IDR,88.75
+708,vestibulum ante ipsum primis,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",XAF,47.98
+709,suscipit ligula,Nam tristique tortor eu pede.,CNY,69.11
+710,nam congue risus,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",CNY,44.88
+711,nisi venenatis tristique,"In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.",ARS,6.97
+712,sed lacus morbi,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",PHP,18.4
+713,vel est,Integer ac leo. Pellentesque ultrices mattis odio.,CAD,47.06
+714,lacus curabitur at,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.",CNY,17.04
+715,lacinia erat vestibulum sed,Nulla tellus.,MDL,68.21
+716,fusce posuere felis,Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.,PEN,44.33
+717,turpis elementum ligula vehicula,"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",CNY,39.26
+718,tempor,Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.,CNY,60.68
+719,odio consequat,"Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",ARS,49.29
+720,vestibulum,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.",EUR,64.22
+721,fusce congue diam id,"Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",PEN,88.25
+722,sit amet erat nulla,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",EUR,77.72
+723,condimentum,"Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.",RUB,27.62
+724,odio curabitur convallis,Maecenas pulvinar lobortis est. Phasellus sit amet erat.,CNY,66.1
+725,sit amet,Ut at dolor quis odio consequat varius.,PHP,28.92
+726,nam tristique,Ut at dolor quis odio consequat varius. Integer ac leo.,RUB,84.48
+727,proin leo,Integer a nibh.,EUR,20.69
+728,vel nulla eget,Phasellus in felis. Donec semper sapien a libero. Nam dui.,CNY,59.8
+729,rhoncus aliquam lacus morbi,Nulla tempus.,ALL,25.61
+730,ante,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",THB,64.39
+731,mauris morbi,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.,PEN,13.66
+732,ut mauris eget massa,Fusce consequat. Nulla nisl. Nunc nisl.,CNY,68.39
+733,nulla suspendisse potenti cras,Morbi vel lectus in quam fringilla rhoncus.,IDR,84.81
+734,accumsan,In hac habitasse platea dictumst.,RUB,38.23
+735,tincidunt,Mauris ullamcorper purus sit amet nulla.,PHP,14.23
+736,aliquet,Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.,MGA,16.18
+737,vel sem,Quisque ut erat. Curabitur gravida nisi at nibh.,IDR,78.62
+738,lorem,In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.,CNY,9.15
+739,congue diam id ornare,"Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.",NGN,99.03
+740,orci,Integer ac neque.,VND,62.01
+741,ultrices,Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.,SYP,2.97
+742,tellus in sagittis,Nulla facilisi. Cras non velit nec nisi vulputate nonummy.,PLN,26.7
+743,proin leo,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",PEN,92.49
+744,vel augue,Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.,RUB,76.93
+745,tortor,Donec ut mauris eget massa tempor convallis.,CNY,68.41
+746,amet eleifend pede libero,"Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",SEK,10.98
+747,nisl nunc,"Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",USD,68.04
+748,penatibus et,Morbi non lectus.,CZK,82.08
+749,cras non velit nec,In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.,RUB,33.62
+750,suspendisse potenti,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.,IDR,15.08
+751,in,Vestibulum ac est lacinia nisi venenatis tristique.,EUR,57.7
+752,bibendum morbi,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.",IDR,10.33
+753,dapibus nulla,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.,CNY,17.09
+754,cum sociis natoque penatibus,"Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",CZK,38.34
+755,nunc,Nulla mollis molestie lorem. Quisque ut erat.,XOF,30.35
+756,potenti nullam,"Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",BRL,77.88
+757,quis,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",COP,98.02
+758,turpis adipiscing lorem vitae,Donec posuere metus vitae ipsum.,VND,2.53
+759,mauris,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",SEK,35.56
+760,ultrices phasellus,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",PEN,7.16
+761,sapien cum,Fusce consequat. Nulla nisl.,EUR,42.03
+762,eleifend,Curabitur in libero ut massa volutpat convallis.,IDR,89.6
+763,aenean,Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.,IDR,54.7
+764,lobortis sapien sapien non,"Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",PHP,59.67
+765,mi integer ac,Etiam faucibus cursus urna.,COP,44.96
+766,in sagittis dui,"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",PHP,47.58
+767,a nibh,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",RSD,42.83
+768,rhoncus aliquet pulvinar,Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.,PLN,1.85
+769,ultrices posuere,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.,CNY,79.88
+770,sit amet erat,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",VND,78.28
+771,vel,Aenean fermentum.,TND,75.1
+772,libero ut massa volutpat,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.,CNY,47.09
+773,id luctus nec,Mauris sit amet eros.,UAH,1.85
+774,nunc donec quis orci,Aenean sit amet justo.,CNY,8.82
+775,non quam nec dui,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.,IDR,57.84
+776,id lobortis convallis,Integer tincidunt ante vel ipsum.,IDR,99.2
+777,risus praesent lectus vestibulum,"Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",EUR,29.18
+778,donec ut dolor,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",EUR,87.65
+779,nulla quisque arcu,"Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",UAH,55.97
+780,etiam vel augue vestibulum,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",EUR,71.07
+781,rhoncus aliquam lacus,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.,EUR,21.44
+782,proin,Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.,UAH,91.78
+783,at vulputate vitae nisl,Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.,USD,32.9
+784,tincidunt nulla mollis molestie,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",CNY,55.15
+785,a odio,Morbi quis tortor id nulla ultrices aliquet.,CUP,55.7
+786,adipiscing,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.",AUD,42.74
+787,faucibus orci luctus et,Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.,COP,72.53
+788,at,Aenean auctor gravida sem.,NGN,56.07
+789,amet,"Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",MGA,67.58
+790,sit amet,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",PLN,66.65
+791,at,Morbi vel lectus in quam fringilla rhoncus.,CLP,97.86
+792,ipsum primis,Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.,EUR,84.9
+793,parturient,Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.,RSD,6.49
+794,purus,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",IDR,50.04
+795,eget rutrum at lorem,"Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.",RUB,8.21
+796,sit amet,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",IDR,64.82
+797,rhoncus aliquam,Ut tellus.,BRL,99.67
+798,mauris vulputate,"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",CNY,77.09
+799,duis aliquam convallis nunc,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",IDR,61.6
+800,accumsan tortor quis turpis,Praesent blandit lacinia erat.,CLP,50.29
+801,nisl duis bibendum felis,"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",EUR,25.55
+802,erat tortor sollicitudin mi,Morbi a ipsum.,EUR,31.58
+803,nulla elit,Mauris ullamcorper purus sit amet nulla.,EUR,3.54
+804,elit ac nulla,Integer a nibh. In quis justo.,XOF,61.24
+805,dui vel,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.,CNY,74.48
+806,sed interdum,"Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",CNY,25.75
+807,sagittis nam congue,Phasellus id sapien in sapien iaculis congue.,USD,32.72
+808,ipsum primis in,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",IDR,92.23
+809,ridiculus mus etiam,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.",HRK,87.97
+810,eros,Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.,BRL,11.71
+811,pretium,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",CUP,5.7
+812,pede,Etiam pretium iaculis justo.,IDR,77.39
+813,augue,Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.,BOB,6.84
+814,sagittis,Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.,EUR,18.84
+815,nulla dapibus dolor,Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.,MAD,80.86
+816,mattis egestas metus aenean,Duis mattis egestas metus.,UGX,24.39
+817,id nulla,Integer ac leo. Pellentesque ultrices mattis odio.,EUR,76.93
+818,volutpat in congue etiam,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",PEN,12.71
+819,ante ipsum primis,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.",KGS,59.43
+820,rutrum neque aenean,Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.,BRL,76.96
+821,dis parturient montes,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",BRL,32.24
+822,odio,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",CNY,98.61
+823,duis,Vivamus vel nulla eget eros elementum pellentesque.,RUB,21.94
+824,imperdiet,"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.",BRL,1.93
+825,rutrum ac lobortis,Quisque porta volutpat erat.,CNY,18.98
+826,eget,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",RSD,27.09
+827,condimentum,In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.,IDR,77.4
+828,mi pede malesuada,Sed sagittis.,IDR,67.51
+829,dui proin leo,Nulla suscipit ligula in lacus.,PLN,47.92
+830,aliquam quis,In sagittis dui vel nisl. Duis ac nibh.,USD,12.5
+831,eu massa donec,"Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",EUR,84.53
+832,ultrices,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",RUB,4.85
+833,non interdum in ante,Phasellus id sapien in sapien iaculis congue.,EUR,32.98
+834,elementum ligula vehicula consequat,In congue. Etiam justo. Etiam pretium iaculis justo.,BRL,83.34
+835,ac,"Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.",EUR,14.89
+836,ac tellus semper interdum,Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.,PLN,62.23
+837,rutrum nulla nunc purus,In congue.,HKD,45.17
+838,montes nascetur ridiculus mus,Suspendisse potenti. Nullam porttitor lacus at turpis.,AFN,53.98
+839,dapibus dolor vel,Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.,CNY,82.03
+840,aliquet pulvinar sed,Phasellus in felis. Donec semper sapien a libero. Nam dui.,IDR,21.49
+841,tincidunt in leo maecenas,"Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",EUR,2.24
+842,vel,"Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",MXN,13.13
+843,nec euismod scelerisque,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",CNY,70.1
+844,nibh,Duis at velit eu est congue elementum.,EUR,31.87
+845,eget semper,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",ARS,19.36
+846,at,Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.,CNY,99.47
+847,lacinia,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.,SEK,93.16
+848,libero,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.,RUB,48.74
+849,dapibus nulla,Aenean fermentum. Donec ut mauris eget massa tempor convallis.,IDR,62.9
+850,pede justo eu massa,Mauris ullamcorper purus sit amet nulla.,CNY,84.52
+851,eu tincidunt in,"Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",GMD,10.47
+852,mauris,Cras in purus eu magna vulputate luctus.,CNY,22.21
+853,a,"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.",IDR,35.26
+854,lorem ipsum dolor sit,Donec dapibus. Duis at velit eu est congue elementum.,CNY,83.37
+855,molestie lorem quisque ut,Etiam faucibus cursus urna. Ut tellus.,CNY,44.08
+856,quis tortor id nulla,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",IDR,14.54
+857,sociis natoque penatibus,Maecenas tincidunt lacus at velit.,PHP,14.08
+858,tellus nulla,Proin at turpis a pede posuere nonummy.,UAH,57.49
+859,tristique tortor,Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.,PLN,24.68
+860,sed vel,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.",UAH,32.34
+861,amet,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.,LSL,67.33
+862,quam,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",BRL,36.99
+863,in lacus curabitur at,Etiam vel augue.,CNY,46.36
+864,maecenas pulvinar lobortis,Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.,IDR,26.36
+865,curae mauris,"Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",BRL,8.61
+866,a ipsum integer,Mauris sit amet eros.,TZS,62.07
+867,ligula suspendisse ornare,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",CNY,82.1
+868,enim,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.",MAD,19.27
+869,eget,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.,EUR,16.65
+870,id,Phasellus in felis. Donec semper sapien a libero.,XAF,11.12
+871,non,Nulla ut erat id mauris vulputate elementum. Nullam varius.,PHP,77.84
+872,sagittis sapien cum,Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.,CNY,19.01
+873,pellentesque ultrices,Duis bibendum.,GTQ,43.68
+874,est,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",CNY,34.11
+875,arcu sed,Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.,SYP,61.2
+876,mauris morbi,Phasellus id sapien in sapien iaculis congue.,BRL,22.04
+877,convallis nulla neque,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.,IDR,87.54
+878,faucibus,Pellentesque at nulla.,EUR,85.69
+879,lectus suspendisse,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",HNL,36.2
+880,augue,"Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",PHP,94.61
+881,elementum in,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",PLN,60.18
+882,facilisi cras non velit,Morbi a ipsum.,TJS,69.2
+883,vel ipsum praesent blandit,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",EUR,26.98
+884,sem sed sagittis nam,In quis justo.,CNY,39.32
+885,ultrices mattis odio donec,Nulla facilisi. Cras non velit nec nisi vulputate nonummy.,UGX,43.68
+886,semper porta volutpat quam,Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.,EUR,24.29
+887,odio curabitur,In hac habitasse platea dictumst. Etiam faucibus cursus urna.,PEN,79.43
+888,mauris sit,Mauris ullamcorper purus sit amet nulla.,EUR,27.33
+889,id mauris vulputate elementum,Etiam justo. Etiam pretium iaculis justo.,EUR,88.43
+890,ultrices,Aenean sit amet justo. Morbi ut odio.,EGP,54.32
+891,cum,"Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",CNY,31.98
+892,integer pede justo lacinia,Proin risus. Praesent lectus.,IDR,36.48
+893,enim blandit mi,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",VEF,95.92
+894,varius ut blandit non,In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.,BOB,18.54
+895,vestibulum aliquet,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.,AZN,98.28
+896,magna vulputate luctus,Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.,RUB,70.21
+897,ligula sit amet eleifend,Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.,IDR,8.68
+898,lorem vitae mattis,Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.,RUB,3.42
+899,justo nec condimentum,Duis ac nibh.,CNY,34.09
+900,pede,"Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",PAB,79.12
+901,in,Pellentesque viverra pede ac diam.,IDR,25.32
+902,dictumst aliquam augue,Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.,MZN,83.32
+903,elit,Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.,AFN,86.56
+904,varius nulla facilisi,Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.,CAD,43.23
+905,augue quam sollicitudin vitae,In sagittis dui vel nisl.,EUR,39.96
+906,dictumst,Duis consequat dui nec nisi volutpat eleifend.,EUR,13.16
+907,fusce consequat,Phasellus sit amet erat.,CNY,92.32
+908,nibh in,Cras in purus eu magna vulputate luctus.,PAB,98.26
+909,non,Nulla facilisi. Cras non velit nec nisi vulputate nonummy.,BGN,25.92
+910,tincidunt nulla,"Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",KZT,60.9
+911,risus,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.,EUR,74
+912,erat eros,Integer ac leo.,IDR,70.05
+913,dolor morbi,"Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.",BRL,44.33
+914,turpis,Etiam pretium iaculis justo.,IDR,8.93
+915,a,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",CNY,77.68
+916,tempus,"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",THB,95.31
+917,ligula pellentesque ultrices phasellus,Proin at turpis a pede posuere nonummy.,EUR,51.56
+918,felis sed lacus morbi,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",IDR,36.26
+919,massa quis augue luctus,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",BRL,25.5
+920,volutpat dui,Aenean fermentum. Donec ut mauris eget massa tempor convallis.,JMD,30.9
+921,elit,Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.,RSD,3.85
+922,convallis nulla neque,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.",IDR,3.65
+923,libero,"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.",CNY,36.49
+924,aliquam erat volutpat,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",RUB,53.42
+925,volutpat eleifend,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",KRW,16.39
+926,dictumst morbi,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",CNY,86.79
+927,morbi,Nunc nisl.,CNY,80.82
+928,tincidunt,Duis ac nibh.,EUR,41.25
+929,nunc,Nulla nisl. Nunc nisl.,EUR,10.39
+930,nulla nunc purus phasellus,Proin risus.,PAB,83.37
+931,nam,Nulla tellus.,CNY,66.48
+932,vestibulum eget vulputate ut,"Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",CNY,73.11
+933,dictumst maecenas,Nulla justo.,SEK,25.15
+934,sed augue aliquam,Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.,IDR,74.47
+935,tellus,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",CNY,94.1
+936,nulla justo aliquam quis,Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.,ALL,83.68
+937,integer aliquet massa,In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.,USD,43.58
+938,rutrum,Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.,VND,9.07
+939,at ipsum,Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.,BWP,33.62
+940,eget massa,Duis mattis egestas metus.,PLN,95.48
+941,in felis eu sapien,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.,PEN,55.14
+942,est phasellus,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.,RUB,15.38
+943,pede justo lacinia,"Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",XOF,15.68
+944,lobortis,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.,CNY,64.45
+945,in congue etiam,Integer ac leo. Pellentesque ultrices mattis odio.,EUR,6.1
+946,vivamus,Mauris lacinia sapien quis libero.,IDR,71.12
+947,in,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",NOK,29.81
+948,quis lectus suspendisse,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",IDR,89.38
+949,in faucibus orci luctus,In quis justo. Maecenas rhoncus aliquam lacus.,JMD,3.14
+950,lacinia,Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.,CNY,52.76
+951,vel,"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.",CNY,73.9
+952,sollicitudin mi sit,Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.,CNY,27.29
+953,est quam,Ut tellus. Nulla ut erat id mauris vulputate elementum.,EUR,37.93
+954,consectetuer,Duis aliquam convallis nunc.,MYR,12.21
+955,luctus et ultrices,Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.,IDR,85.47
+956,vivamus,In congue. Etiam justo.,SEK,2.2
+957,ut mauris,Nullam porttitor lacus at turpis.,NOK,98.88
+958,volutpat in congue,"Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",EUR,18.23
+959,consequat,Duis at velit eu est congue elementum.,IDR,81.48
+960,in quam,"Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.",USD,80.06
+961,lacinia aenean sit amet,"Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",ZAR,3.82
+962,imperdiet,Aliquam erat volutpat. In congue.,CNY,10.91
+963,sed ante vivamus,Donec ut mauris eget massa tempor convallis.,CZK,4.92
+964,ultrices,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.,HUF,57.96
+965,sollicitudin ut suscipit a,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",BWP,67.23
+966,morbi non lectus aliquam,Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.,RUB,37.38
+967,eu,Aliquam non mauris. Morbi non lectus.,JPY,2.85
+968,primis,Integer ac leo. Pellentesque ultrices mattis odio.,MVR,40.21
+969,nascetur ridiculus mus etiam,Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.,CNY,80.08
+970,sit amet,Vivamus in felis eu sapien cursus vestibulum.,ILS,85.76
+971,augue vel accumsan tellus,Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.,ILS,48.53
+972,mauris viverra,Pellentesque ultrices mattis odio. Donec vitae nisi.,CLP,41.17
+973,ante vel ipsum praesent,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.,CNY,79.49
+974,pede morbi,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.,BRL,2.21
+975,luctus tincidunt nulla,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",VND,77.72
+976,mauris laoreet ut,"In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.",PLN,67.63
+977,erat tortor,"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.",PHP,70.44
+978,sit amet consectetuer,Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.,CZK,63.82
+979,sed justo,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.,XAF,12.1
+980,mi,"Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",BRL,13.44
+981,tincidunt eu felis,Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.,HNL,36.37
+982,nulla,Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.,THB,48.61
+983,vitae mattis nibh ligula,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",JPY,41.01
+984,libero non,Integer ac leo. Pellentesque ultrices mattis odio.,CZK,27.31
+985,vulputate vitae nisl,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",XOF,90.28
+986,sapien in sapien,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",RUB,81.06
+987,metus,Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.,MYR,10.8
+988,in eleifend,Sed accumsan felis.,DOP,41.09
+989,neque duis bibendum morbi,Donec vitae nisi.,NGN,67.46
+990,nibh ligula,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.",IDR,80.11
+991,vestibulum vestibulum ante,In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.,IDR,9.76
+992,feugiat non,"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",RUB,89.27
+993,ut massa volutpat,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",BRL,42.52
+994,vulputate,Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.,USD,20.59
+995,eget orci,Maecenas pulvinar lobortis est.,EUR,71.72
+996,eget tincidunt eget,Praesent blandit.,KRW,9.95
+997,felis donec,Donec dapibus. Duis at velit eu est congue elementum.,CNY,59.7
+998,lorem ipsum dolor,Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.,PHP,91.21
+999,sem praesent id,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",CNY,8.1
+1000,ut nulla sed accumsan,Maecenas rhoncus aliquam lacus.,CNY,55.51

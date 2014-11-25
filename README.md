@@ -83,10 +83,49 @@ Les applications VSCt en production sont déjà monitorées:
 * Base de données
 * Fichiers à plat fait maison
 * TSDB: Time Series DataBase
-    * InfluxDB: http://influxdb.com/
-    * Open TSDB: http://opentsdb.net/
-    * Graphite: http://graphite.wikidot.com/
+    * InfluxDB: [http://influxdb.com/](http://influxdb.com/)
+    * Open TSDB: [http://opentsdb.net/](http://opentsdb.net/)
+    * **Graphite**: [http://graphite.wikidot.com/](http://graphite.wikidot.com/) => mis à dispo par la DT.
 
+### Analyse / Visualization ###
+
+* Fichiers de logs: grep -c "service1"
+* Base de données: select count(1) from T_AUDIT where service_name = 'service1';
+* Fichiers à plat fait maison:
+* TSDB: possibiliter de plugger des outils compatibles:
+    * [graphene](http://jondot.github.io/graphene/)
+    * [grafana](http://grafana.org/)
+    * plein plein plein d'autres... voir [ici](http://graphite.readthedocs.org/en/latest/tools.html)
+
+## Focus sur JMX ##
+
+C'est ce qui nous interesse en tant que développeur.
+
+### Principes de JMX ###
+
+* Des objets (méthodes, attributs) nommés et identifiables de manière unique: les MBeans (pour Managed Beans)
+* Une organisation arborescente des mbeans
+* Un protocole intégrant le rafraichissement automatique des informations.
+* Des outils standard JMV pour visualiser les mbeans: [DEMO !]
+    * JConsole: vieux mais toujours vaillant
+    * JVirtualVM: plus pro
+    * Java Mission Control: Plus hype et récent mais buggé.
+
+### Mise en place ###
+
+* En fait c'est super compliqué à mettre en oeuvre
+* Il faut faire des descripteurs pour chaque méthode / attribut exposé
+
+### Spring à la rescousse ###
+
+* Simplification de la publication Bean spring en tant que MBean
+* Demo.
+
+=> scenario:
+un site web vend des trucs à des clients:
+une base de produit, une base de client.
+Cas d'utilisation:
+un client se connecte (login), recherche des produits (selectByPrice), en choisi quelqu'un (addToBasket) puis passe commande (order).
 
 
 
