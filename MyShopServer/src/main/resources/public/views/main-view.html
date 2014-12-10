@@ -1,0 +1,89 @@
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="javascript:;" data-target="#">My Lorem Ipsum Shop</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <p class="navbar-text navbar-right">Signed in as <a href="javascript:;" data-target="#" class="navbar-link">{{user.firstName + ' ' + user.lastName}}</a></p>
+            <button type="button" class="btn btn-default navbar-btn navbar-right" ng-click="logoutClick()">Sign out</button>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<div class="row">
+    <div class="col-sm-12">
+        <h3>Product search</h3>
+        <form class="form-inline" role="form">
+            <div class="form-group">
+                <label class="sr-only" for="minInput">min price</label>
+                <input type="number" class="form-control" id="minInput" placeholder="Enter lower price" ng-model="minPrice" value="50">
+            </div>
+            <div class="form-group">
+                <label class="sr-only" for="minInput">max price</label>
+                <input type="number" class="form-control" id="maxInput" placeholder="Enter upper price" ng-model="maxPrice" value="55">
+            </div>
+            <button type="submit" class="btn btn-default" ng-click="doSearch()">Search</button>
+        </form>
+        <div class="row">
+            <div class="col-xs-8 col-sm-6" ng-show="noresultfound">
+                <span class="label label-info">No Lorem Ipsum found...:-(</span>
+            </div>
+            <div class="col-xs-8 col-sm-6" ng-show="products.length > 0">
+                <span class="label label-info">We found {{products.length}} Lorem Ipsum !!</span>
+                <table class="table table-bordered table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                            <th>Price</th>
+                            <th>
+                                <button type="button" class="btn btn-default" ng-click="addToBasket()">Add to basket</button>
+                                </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="p in products">
+                            <td>{{p.id}}</td>
+                            <td>{{p.name}}</td>
+                            <td>{{p.description}}</td>
+                            <td>{{p.amount}}</td>
+                            <td><input type="checkbox" ng-model="p.selected"/></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-xs-4 col-sm-6" ng-show="basketProducts.length > 0">
+                <h2>My basket</h2><button type="button" class="btn btn-default" ng-click="clearBasket()">Clear...</button>
+                <table class="table table-bordered table-hover">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="p in basketProducts">
+                        <td>{{p.id}}</td>
+                        <td>{{p.name}}</td>
+                        <td>{{p.description}}</td>
+                        <td>{{p.amount}}</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+

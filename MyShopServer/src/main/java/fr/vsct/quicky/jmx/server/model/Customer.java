@@ -1,4 +1,4 @@
-package fr.vsct.quicky.jmx.server;
+package fr.vsct.quicky.jmx.server.model;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;

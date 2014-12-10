@@ -1,5 +1,7 @@
-package fr.vsct.quicky.jmx.client;
+package fr.vsct.quicky.jmx.clientloader;
 
+import com.codahale.metrics.MetricRegistry;
+import com.codahale.metrics.Timer;
 import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.concurrent.Task;
@@ -37,7 +39,7 @@ public class ClientGuiController {
     private Stack<ClientTask> clientTaskStack = new Stack<>();
 
     public ClientGuiController() {
-        executorService = Executors.newSingleThreadExecutor();
+        executorService = Executors.newFixedThreadPool(20);
         graphUpdaterThread = Executors.newSingleThreadScheduledExecutor();
 
         startRefresher();
@@ -50,14 +52,15 @@ public class ClientGuiController {
     public void startRefresher() {
         scheduledFuture = graphUpdaterThread.scheduleAtFixedRate(() -> {
             Platform.runLater(this::updateScenarioLineChart);
-        }, 1, 1, TimeUnit.SECONDS);
+        }, 1, 5, TimeUnit.SECONDS);
     }
 
     @FXML
     protected void initialize() {
         // add a serie.
-        scenarioLineChart.getData().add(new XYChart.Series<String, Number>("Scenario pass", FXCollections.<XYChart.Data<String, Number>>observableArrayList()));
+//        scenarioLineChart.getData().add(new XYChart.Series<String, Number>("Scenario pass", FXCollections.<XYChart.Data<String, Number>>observableArrayList()));
         scenarioLineChart.getData().add(new XYChart.Series<String, Number>("Clients count", FXCollections.<XYChart.Data<String, Number>>observableArrayList()));
+        scenarioLineChart.getData().add(new XYChart.Series<String, Number>("Mean Response Time", FXCollections.<XYChart.Data<String, Number>>observableArrayList()));
 
         scenarioCountAxis.setUpperBound(100);
 
@@ -112,16 +115,19 @@ public class ClientGuiController {
 
     private void updateScenarioLineChart() {
         try {
-            System.out.println("updating chart." + scenarioLineChart.getData().size() + "," + currentSessionCount.get());
-            XYChart.Series<String, Number> scenarioPassCount = scenarioLineChart.getData().get(0);
-            XYChart.Series<String, Number> clientsCount = scenarioLineChart.getData().get(1);
-            if (scenarioPassCount.getData().size() > 10) {
-                scenarioPassCount.getData().remove(0);
+//            System.out.println("updating chart." + scenarioLineChart.getData().size() + "," + currentSessionCount.get());
+//            XYChart.Series<String, Number> scenarioPassCount = scenarioLineChart.getData().get(0);
+            XYChart.Series<String, Number> clientsCount = scenarioLineChart.getData().get(0);
+            XYChart.Series<String, Number> responseTime = scenarioLineChart.getData().get(1);
+            if (responseTime.getData().size() > 10) {
+//                scenarioPassCount.getData().remove(0);
                 clientsCount.getData().remove(0);
+                responseTime.getData().remove(0);
             }
 
-            scenarioPassCount.getData().add(new LineChart.Data<>(now().format(ofPattern("HH:mm:ss")), currentSessionCount.get()));
+//            scenarioPassCount.getData().add(new LineChart.Data<>(now().format(ofPattern("HH:mm:ss")), currentSessionCount.get()));
             clientsCount.getData().add(new LineChart.Data<>(now().format(ofPattern("HH:mm:ss")), currentClientCount.get()));
+            responseTime.getData().add(new LineChart.Data<>(now().format(ofPattern("HH:mm:ss")), TimeUnit.NANOSECONDS.toMillis((long) timer.getSnapshot().getMean())));
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -143,7 +149,12 @@ public class ClientGuiController {
         }
     }
 
+    private MetricRegistry metricRegistry = new MetricRegistry();
+    Timer timer = metricRegistry.timer("clientloader-response-time");
+
     public class ClientTask extends Task<Integer> {
+
+
         @Override
         protected Integer call() throws Exception {
             while (true) {
@@ -151,8 +162,10 @@ public class ClientGuiController {
                     break;
                 }
 
+                Timer.Context time = timer.time();
                 Client client1 = new Client();
                 client1.runScenario();
+                time.stop();
                 currentSessionCount.incrementAndGet();
             }
             return null;

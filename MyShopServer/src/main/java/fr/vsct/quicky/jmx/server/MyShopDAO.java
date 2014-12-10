@@ -1,6 +1,10 @@
 package fr.vsct.quicky.jmx.server;
 
 import com.google.common.collect.Maps;
+import fr.vsct.quicky.jmx.server.model.Basket;
+import fr.vsct.quicky.jmx.server.model.Customer;
+import fr.vsct.quicky.jmx.server.model.Order;
+import fr.vsct.quicky.jmx.server.model.Product;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
 import org.springframework.core.io.ClassPathResource;
@@ -70,7 +74,7 @@ public class MyShopDAO {
     public Order saveOrder(Integer customerId) {
         Basket basket = getBasket(customerId);
         long id = orderSeq.incrementAndGet();
-        Order order = new Order(id, basket.getProductList(), getCustomer(basket.getCustomerId()));
+        Order order = new Order(id, basket.getLigneCommandes(), getCustomer(basket.getCustomerId()));
         orderMap.put(id, order);
         basketMap.remove(customerId);
         return order;
@@ -87,7 +91,7 @@ public class MyShopDAO {
 
     public Basket addToBasket(int customerId, int productId) {
         Basket basket = getBasket(customerId);
-        basket.getProductList().add(getProduct(productId));
+        basket.addToLigneCommandes(getProduct(productId));
         return basket;
     }
 
@@ -97,5 +101,17 @@ public class MyShopDAO {
 
     public Collection<Order> allOrders() {
         return orderMap.values();
+    }
+
+    public Customer getCustomerByEmail(String email) {
+        return customerMap.values().stream().filter((customer) -> customer.email.equals(email)).findFirst().get();
+    }
+
+    public Collection<Customer> getAllCustomers() {        
+        return customerMap.values();
+    }
+
+    public Collection<Product> getAllProducts() {
+        return productMap.values();
     }
 }

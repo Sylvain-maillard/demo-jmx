@@ -7,14 +7,14 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
       xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="fr.vsct.quicky.jmx.client.ClientGuiController">
+      fx:controller="fr.vsct.quicky.jmx.clientloader.ClientGuiController">
     <VBox>
         <LineChart fx:id="scenarioLineChart" prefHeight="768.0" prefWidth="1024.0" title="Client Test">
             <xAxis>
                 <CategoryAxis label="Time" side="BOTTOM"/>
             </xAxis>
             <yAxis>
-                <NumberAxis fx:id="scenarioCountAxis" label="Scenario count" side="LEFT"/>
+                <NumberAxis fx:id="scenarioCountAxis" label="Response time" side="LEFT"/>
             </yAxis>
         </LineChart>
         <FlowPane alignment="CENTER" hgap="10.0">

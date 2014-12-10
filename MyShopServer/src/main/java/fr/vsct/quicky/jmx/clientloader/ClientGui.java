@@ -1,4 +1,4 @@
-package fr.vsct.quicky.jmx.client;
+package fr.vsct.quicky.jmx.clientloader;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -25,7 +25,7 @@ public class ClientGui extends Application {
     @Override
     public void start(Stage stage) throws Exception {
 
-        Parent root = FXMLLoader.load(new ClassPathResource("ClientGui.fxml").getURL());
+        Parent root = FXMLLoader.load(new ClassPathResource("ClientLoaderGui.fxml").getURL());
 
         Scene scene = new Scene(root);
 

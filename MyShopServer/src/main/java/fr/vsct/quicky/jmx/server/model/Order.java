@@ -1,4 +1,4 @@
-package fr.vsct.quicky.jmx.server;
+package fr.vsct.quicky.jmx.server.model;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -13,13 +13,13 @@ public class Order {
 
     public final long id;
 
-    public final List<Product> productList;
+    public final List<LigneCommande> productList;
 
     public final Customer owner;
 
     @JsonCreator
     public Order(@JsonProperty("id") long id,
-                 @JsonProperty("productList") List<Product> productList,
+                 @JsonProperty("productList") List<LigneCommande> productList,
                  @JsonProperty("owner") Customer owner) {
         this.id = id;
         this.productList = productList;
