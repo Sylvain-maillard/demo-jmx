@@ -9,6 +9,7 @@ import org.aspectj.lang.annotation.Aspect;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.jmx.export.MBeanExporter;
 import org.springframework.stereotype.Component;
 
@@ -27,14 +28,17 @@ public class CountingAspect {
     private static final Logger LOGGER = LoggerFactory.getLogger(CountingAspect.class);
 
     @Autowired
+    @Qualifier("mbeanExporter")
     MBeanExporter exporter;
 
     ConcurrentMap<String, CounterMBean> counterMBeanMap = Maps.newConcurrentMap();
-    private final MetricRegistry metricRegistry;
 
-    public CountingAspect() {
-        metricRegistry = new MetricRegistry();
-    }
+    @Autowired
+    private MetricRegistry metricRegistry;
+
+//    public CountingAspect() {
+//        metricRegistry = new MetricRegistry();
+//    }
 
     @Around("@annotation(fr.vsct.quicky.jmx.server.counting.Counting)")
     public Object aroundAnnotation(ProceedingJoinPoint joinPoint) throws Throwable {

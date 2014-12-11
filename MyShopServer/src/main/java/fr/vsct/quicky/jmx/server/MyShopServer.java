@@ -11,7 +11,6 @@ import org.springframework.context.annotation.EnableMBeanExport;
  */
 @ComponentScan
 @EnableAutoConfiguration
-@EnableMBeanExport
 @EnableAspectJAutoProxy
 public class MyShopServer {
 
