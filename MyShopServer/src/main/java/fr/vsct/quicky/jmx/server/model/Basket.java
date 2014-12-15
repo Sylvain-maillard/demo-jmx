@@ -6,9 +6,10 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.google.common.collect.Maps;
 import org.joda.money.Money;
 
-import java.util.*;
+import java.util.List;
+import java.util.Map;
 
-import static com.google.common.collect.Lists.*;
+import static com.google.common.collect.Lists.newArrayList;
 import static org.joda.money.CurrencyUnit.EUR;
 import static org.joda.money.Money.zero;
 

@@ -8,6 +8,8 @@ import org.joda.money.Money;
 
 import java.util.List;
 
+import static org.joda.money.CurrencyUnit.EUR;
+
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Order {
 
@@ -27,10 +29,10 @@ public class Order {
     }
 
     public Money getTotalAmount() {
-        final Money[] total = {Money.zero(CurrencyUnit.EUR)};
-        productList.forEach(product -> {
-            total[0] = total[0].plus(product.getAmount());
-        });
-        return total[0];
+        return productList.stream().map(LigneCommande::getAmount).reduce(Money.zero(EUR), (sum, amount) -> sum = sum.plus(amount));
+    }
+
+    public int getTotalArticles() {
+        return productList.stream().mapToInt(LigneCommande::getQuantite).reduce(0,(sum,qte) -> sum +=qte);
     }
 }

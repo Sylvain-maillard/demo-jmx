@@ -1,4 +1,4 @@
-package fr.vsct.quicky.jmx.clientloader;
+package fr.vsct.quicky.jmx.client;
 
 import com.google.common.collect.ImmutableList;
 import fr.vsct.quicky.jmx.server.model.Basket;
@@ -27,6 +27,16 @@ public class Client {
 
     private static <T> T query(String url, Class<T> classOfT, Object... parameters) {
         return restTemplate.getForObject(baseUrl + url, classOfT, parameters);
+    }
+
+    /**
+     * just run one scenario.
+     *
+     * @param args
+     */
+    public static void main(String[] args) {
+        Client client = new Client();
+        client.runScenario();
     }
 
     /**
@@ -62,14 +72,5 @@ public class Client {
         // order the basket:
         Order order = query("/basket/{userId}/order", Order.class, userId);
         System.out.println("created order: " + order.id);
-    }
-
-    /**
-     * just run one scenario.
-     * @param args
-     */
-    public static void main(String[] args) {
-        Client client = new Client();
-        client.runScenario();
     }
 }

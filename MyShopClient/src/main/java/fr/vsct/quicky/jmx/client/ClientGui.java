@@ -1,4 +1,4 @@
-package fr.vsct.quicky.jmx.clientloader;
+package fr.vsct.quicky.jmx.client;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

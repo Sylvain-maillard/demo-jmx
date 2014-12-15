@@ -3,7 +3,6 @@ package fr.vsct.quicky.jmx.server.model;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import fr.vsct.quicky.jmx.server.model.Product;
 import org.joda.money.Money;
 
 /**

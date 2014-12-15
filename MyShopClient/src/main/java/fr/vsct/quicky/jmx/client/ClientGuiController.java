@@ -1,4 +1,4 @@
-package fr.vsct.quicky.jmx.clientloader;
+package fr.vsct.quicky.jmx.client;
 
 import com.codahale.metrics.MetricRegistry;
 import com.codahale.metrics.Timer;
@@ -37,6 +37,8 @@ public class ClientGuiController {
 
     private ScheduledFuture<?> scheduledFuture;
     private Stack<ClientTask> clientTaskStack = new Stack<>();
+    private MetricRegistry metricRegistry = new MetricRegistry();
+    Timer timer = metricRegistry.timer("clientloader-response-time");
 
     public ClientGuiController() {
         executorService = Executors.newFixedThreadPool(20);
@@ -148,9 +150,6 @@ public class ClientGuiController {
             stopRefresher();
         }
     }
-
-    private MetricRegistry metricRegistry = new MetricRegistry();
-    Timer timer = metricRegistry.timer("clientloader-response-time");
 
     public class ClientTask extends Task<Integer> {
 

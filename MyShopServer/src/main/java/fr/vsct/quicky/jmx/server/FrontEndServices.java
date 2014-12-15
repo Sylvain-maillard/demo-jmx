@@ -22,18 +22,13 @@ import static org.springframework.web.bind.annotation.RequestMethod.POST;
  * basic front controller
  */
 @RestController
-@ManagedResource
 public class FrontEndServices {
 
     private final MyShopDAO dao;
-    private final AtomicInteger orderCallsCount = new AtomicInteger();
-    private final Meter orderCount;
 
     @Autowired
     public FrontEndServices(MyShopDAO dao) {
         this.dao = dao;
-        MetricRegistry metricRegistry = new MetricRegistry();
-        orderCount = metricRegistry.meter("orderCount");
     }
 
     @Counting
@@ -63,8 +58,6 @@ public class FrontEndServices {
     @Counting
     @RequestMapping(value = "/basket/{customerId}/order")
     public Order basketOrder(@PathVariable("customerId") int customerId) {
-        orderCallsCount.incrementAndGet();
-        orderCount.mark();
         return dao.saveOrder(customerId);
     }
 
@@ -72,15 +65,5 @@ public class FrontEndServices {
     @RequestMapping(value = "/orders/{orderId}")
     public Order displayOrder(@PathVariable("orderId") int orderId) {
         return dao.getOrder(orderId);
-    }
-
-    @ManagedAttribute
-    public int getOrderCallsCount() {
-        return orderCallsCount.get();
-    }
-
-    @ManagedAttribute
-    public double getOrderCallsCountOneMinute() {
-        return orderCount.getOneMinuteRate();
     }
 }
