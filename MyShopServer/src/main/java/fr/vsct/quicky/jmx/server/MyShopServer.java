@@ -21,31 +21,7 @@ import java.util.concurrent.TimeUnit;
 @Configuration
 public class MyShopServer {
 
-    @Autowired
-    MetricRegistry registry;
-
     public static void main(String[] args) {
         SpringApplication.run(MyShopServer.class);
-    }
-
-    @Bean
-    public JmxReporter jmxReporter() {
-        final JmxReporter reporter = JmxReporter.forRegistry(registry)
-                .convertDurationsTo(TimeUnit.MILLISECONDS)
-                .inDomain(MyShopServer.class.getPackage().getName() + ".metrics")
-                .createsObjectNamesWith(new DefaultObjectNameFactory() {
-                    @Override
-                    public ObjectName createName(String type, String domain, String name) {
-                        // distinguish between our counter and spring actuators ones.
-                        if (name.startsWith("app.")) {
-                            return super.createName(type, domain, name.substring(4));
-                        } else {
-                            return super.createName(type, domain + ".spring", name);
-                        }
-                    }
-                })
-                .build();
-        reporter.start();
-        return reporter;
     }
 }

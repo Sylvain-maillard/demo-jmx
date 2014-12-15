@@ -1,8 +1,5 @@
 package fr.vsct.quicky.jmx.server;
 
-import com.codahale.metrics.Gauge;
-import com.codahale.metrics.Histogram;
-import com.codahale.metrics.MetricRegistry;
 import com.google.common.collect.Maps;
 import fr.vsct.quicky.jmx.server.model.Basket;
 import fr.vsct.quicky.jmx.server.model.Customer;
@@ -10,8 +7,6 @@ import fr.vsct.quicky.jmx.server.model.Order;
 import fr.vsct.quicky.jmx.server.model.Product;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.actuate.metrics.GaugeService;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Component;
 
@@ -38,12 +33,6 @@ public class MyShopDAO {
 
     Map<Integer, Basket> basketMap = Maps.newConcurrentMap();
 
-    @Autowired
-    MetricRegistry registry;
-
-    Histogram orderPrices;
-    Histogram orderSizes;
-
     @PostConstruct
     public void loadData() throws IOException {
         loadDataFromCsv("customers.csv", record -> {
@@ -52,8 +41,6 @@ public class MyShopDAO {
         loadDataFromCsv("products.csv", record -> {
             productMap.put(Integer.valueOf(record.get("id")), new Product(record));
         });
-        orderPrices = registry.histogram("app.order.prices");
-        orderSizes = registry.histogram("app.order.sizes");
     }
 
     private void loadDataFromCsv(String resourceName, Consumer<? super CSVRecord> rowAction) throws IOException {
@@ -66,11 +53,9 @@ public class MyShopDAO {
 
         Map<Integer, Product> result = Maps.newHashMap();
 
-        for (Product product : productMap.values()) {
-            if (product.getAmount().getAmountMajorInt() > minPrice && product.getAmount().getAmountMajorInt() < maxPrice) {
-                result.put(product.getId(), product);
-            }
-        }
+        productMap.values().stream().filter(product -> product.getAmount().getAmountMajorInt() > minPrice && product.getAmount().getAmountMajorInt() < maxPrice).forEach(product -> {
+            result.put(product.getId(), product);
+        });
 
         return result;
     }
@@ -90,10 +75,6 @@ public class MyShopDAO {
         Order order = new Order(id, basket.getLigneCommandes(), getCustomer(basket.getCustomerId()));
         orderMap.put(id, order);
         basketMap.remove(customerId);
-
-        // keep track of the amount && totalArticles. for stats usage:
-        orderPrices.update(order.getTotalAmount().getAmountMinorInt());
-        orderSizes.update(order.getTotalArticles());
         return order;
     }
 

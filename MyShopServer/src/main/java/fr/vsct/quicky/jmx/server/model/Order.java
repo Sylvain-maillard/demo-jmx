@@ -3,7 +3,6 @@ package fr.vsct.quicky.jmx.server.model;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import org.joda.money.CurrencyUnit;
 import org.joda.money.Money;
 
 import java.util.List;
@@ -33,6 +32,6 @@ public class Order {
     }
 
     public int getTotalArticles() {
-        return productList.stream().mapToInt(LigneCommande::getQuantite).reduce(0,(sum,qte) -> sum +=qte);
+        return productList.stream().mapToInt(LigneCommande::getQuantite).reduce(0, (sum, qte) -> sum += qte);
     }
 }

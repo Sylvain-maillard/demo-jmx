@@ -41,7 +41,7 @@ public class ClientGuiController {
     Timer timer = metricRegistry.timer("clientloader-response-time");
 
     public ClientGuiController() {
-        executorService = Executors.newFixedThreadPool(20);
+        executorService = Executors.newFixedThreadPool(100) ;
         graphUpdaterThread = Executors.newSingleThreadScheduledExecutor();
 
         startRefresher();
@@ -60,9 +60,8 @@ public class ClientGuiController {
     @FXML
     protected void initialize() {
         // add a serie.
-//        scenarioLineChart.getData().add(new XYChart.Series<String, Number>("Scenario pass", FXCollections.<XYChart.Data<String, Number>>observableArrayList()));
-        scenarioLineChart.getData().add(new XYChart.Series<String, Number>("Clients count", FXCollections.<XYChart.Data<String, Number>>observableArrayList()));
-        scenarioLineChart.getData().add(new XYChart.Series<String, Number>("Mean Response Time", FXCollections.<XYChart.Data<String, Number>>observableArrayList()));
+        scenarioLineChart.getData().add(new XYChart.Series<>("Clients count", FXCollections.<XYChart.Data<String, Number>>observableArrayList()));
+        scenarioLineChart.getData().add(new XYChart.Series<>("Mean Response Time", FXCollections.<XYChart.Data<String, Number>>observableArrayList()));
 
         scenarioCountAxis.setUpperBound(100);
 
@@ -117,17 +116,13 @@ public class ClientGuiController {
 
     private void updateScenarioLineChart() {
         try {
-//            System.out.println("updating chart." + scenarioLineChart.getData().size() + "," + currentSessionCount.get());
-//            XYChart.Series<String, Number> scenarioPassCount = scenarioLineChart.getData().get(0);
             XYChart.Series<String, Number> clientsCount = scenarioLineChart.getData().get(0);
             XYChart.Series<String, Number> responseTime = scenarioLineChart.getData().get(1);
             if (responseTime.getData().size() > 10) {
-//                scenarioPassCount.getData().remove(0);
                 clientsCount.getData().remove(0);
                 responseTime.getData().remove(0);
             }
 
-//            scenarioPassCount.getData().add(new LineChart.Data<>(now().format(ofPattern("HH:mm:ss")), currentSessionCount.get()));
             clientsCount.getData().add(new LineChart.Data<>(now().format(ofPattern("HH:mm:ss")), currentClientCount.get()));
             responseTime.getData().add(new LineChart.Data<>(now().format(ofPattern("HH:mm:ss")), TimeUnit.NANOSECONDS.toMillis((long) timer.getSnapshot().getMean())));
         } catch (Exception e) {

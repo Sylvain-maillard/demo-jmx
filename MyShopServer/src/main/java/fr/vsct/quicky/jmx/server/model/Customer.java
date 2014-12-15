@@ -44,4 +44,9 @@ public class Customer {
         cardNumber = record.get("card_number");
         cardType = record.get("card_type");
     }
+
+    @Override
+    public String toString() {
+        return firstName + ' ' + lastName + " (" + email + ')';
+    }
 }

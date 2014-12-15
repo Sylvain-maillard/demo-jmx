@@ -1,37 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
 <?import javafx.geometry.*?>
 <?import javafx.scene.chart.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
-      xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="fr.vsct.quicky.jmx.client.ClientGuiController">
-    <VBox>
-        <LineChart fx:id="scenarioLineChart" prefHeight="768.0" prefWidth="1024.0" title="Client Test">
-            <xAxis>
-                <CategoryAxis label="Time" side="BOTTOM"/>
-            </xAxis>
-            <yAxis>
-                <NumberAxis fx:id="scenarioCountAxis" label="Response time (ms)" side="LEFT"/>
-            </yAxis>
-        </LineChart>
-        <FlowPane alignment="CENTER" hgap="10.0">
-            <padding>
-                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
-            </padding>
-            <Button fx:id="startBtn" mnemonicParsing="false" onAction="#startSessions" text="Start"/>
-            <Button fx:id="stopBtn" mnemonicParsing="false" onAction="#stopSessions" text="Stop"/>
-            <Label text="Threads"/>
-            <Slider fx:id="threadSlider" blockIncrement="5.0" majorTickUnit="10.0" max="21.0" min="1.0"
-                    showTickLabels="true" showTickMarks="true" value="10">
-                <FlowPane.margin>
-                    <Insets/>
-                </FlowPane.margin>
-            </Slider>
-            <Button mnemonicParsing="false" onAction="#exit" text="Exit"/>
-            <CheckBox fx:id="refreshChkBox" onAction="#refreshCheckBox" selected="true" text="Refresh"/>
-        </FlowPane>
-    </VBox>
-</Pane>
+<GridPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.vsct.quicky.jmx.client.ClientGuiController">
+   <children>
+       <VBox GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+          <children>
+              <LineChart fx:id="scenarioLineChart" prefHeight="400.0" prefWidth="760.0" title="Client Test" VBox.vgrow="ALWAYS">
+                  <xAxis>
+                      <CategoryAxis label="Time" side="BOTTOM" />
+                  </xAxis>
+                  <yAxis>
+                      <NumberAxis fx:id="scenarioCountAxis" label="Response time (ms)" side="LEFT" />
+                  </yAxis>
+              </LineChart>
+              <FlowPane alignment="CENTER" hgap="10.0">
+                  <padding>
+                      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                  </padding>
+                 <children>
+                     <Button fx:id="startBtn" mnemonicParsing="false" onAction="#startSessions" text="Start" />
+                     <Button fx:id="stopBtn" mnemonicParsing="false" onAction="#stopSessions" text="Stop" />
+                     <Label text="Scenarios" />
+                     <Slider fx:id="threadSlider" blockIncrement="5.0" majorTickUnit="10.0" max="100.0" maxWidth="1.7976931348623157E308" min="1.0" prefWidth="400.0" showTickLabels="true" showTickMarks="true" value="10">
+                         <FlowPane.margin>
+                             <Insets />
+                         </FlowPane.margin>
+                     </Slider>
+                     <Button mnemonicParsing="false" onAction="#exit" text="Exit" />
+                     <CheckBox fx:id="refreshChkBox" onAction="#refreshCheckBox" selected="true" text="Refresh" />
+                 </children>
+              </FlowPane>
+          </children>
+       </VBox>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
