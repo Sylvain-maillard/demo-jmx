@@ -155,3 +155,13 @@ It contains the following:
 - Hawtio: console d'admin client jolokia)
 * Cas d'utilisation:
 -
+
+### Quicky Steps ###
+
+## Level 0 ##
+
+* Ici, pas du tout de métrique,
+* Présentation du client de test, du code du serveur avec aucune instrumentation
+* Déroule un premier scenario.
+* Lance le client qui charge
+* On a quand même certaine metriques: Montre la JConsole, on voit la mémoire, le cpu, les threads qui bougent.
