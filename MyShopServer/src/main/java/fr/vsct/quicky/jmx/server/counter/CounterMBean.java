@@ -18,7 +18,7 @@ public class CounterMBean {
     private final Timer timer;
     public CounterMBean(MetricRegistry registry, ProceedingJoinPoint jp) {
         String name = jp.getSignature().getDeclaringType().getSimpleName() + "." + jp.getSignature().getName();
-        this.timer = registry.timer(name + ".timer");
+        this.timer = registry.timer("app." + name + ".timer");
     }
 
     public Timer.Context onCall() {
