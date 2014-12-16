@@ -66,6 +66,8 @@ public class ClientGuiController {
         scenarioCountAxis.setUpperBound(100);
 
         // listner for threads:
+        threadSlider.disableProperty().setValue(true);
+        stopBtn.disableProperty().set(true);
         threadSlider.valueProperty().addListener((observable, oldValue, newValue) -> {
             // compute delta:
             int delta = newValue.intValue() - oldValue.intValue();
@@ -112,6 +114,7 @@ public class ClientGuiController {
 
         stopBtn.disableProperty().setValue(false);
         startBtn.disableProperty().setValue(true);
+        threadSlider.disableProperty().setValue(false);
     }
 
     private void updateScenarioLineChart() {
@@ -136,6 +139,7 @@ public class ClientGuiController {
         }
         stopBtn.disableProperty().setValue(true);
         startBtn.disableProperty().setValue(false);
+        threadSlider.disableProperty().setValue(true);
     }
 
     public void refreshCheckBox(ActionEvent actionEvent) {
