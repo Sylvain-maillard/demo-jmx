@@ -7,6 +7,7 @@ import fr.vsct.quicky.jmx.server.model.Order;
 import fr.vsct.quicky.jmx.server.model.Product;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
+import org.apache.commons.lang3.RandomUtils;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Component;
 
@@ -57,7 +58,17 @@ public class MyShopDAO {
             result.put(product.getId(), product);
         });
 
+        workHard();
+
         return result;
+    }
+
+    private void workHard() {
+        try {
+            Thread.sleep(RandomUtils.nextInt(100,200));
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     public Customer getCustomer(int id) {
@@ -75,11 +86,8 @@ public class MyShopDAO {
         Order order = new Order(id, basket.getLigneCommandes(), getCustomer(basket.getCustomerId()));
         orderMap.put(id, order);
         basketMap.remove(customerId);
-        try {
-            Thread.sleep(10);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+
+        workHard();
         return order;
     }
 
@@ -95,6 +103,9 @@ public class MyShopDAO {
     public Basket addToBasket(int customerId, int productId) {
         Basket basket = getBasket(customerId);
         basket.addToLigneCommandes(getProduct(productId));
+
+        workHard();
+
         return basket;
     }
 
