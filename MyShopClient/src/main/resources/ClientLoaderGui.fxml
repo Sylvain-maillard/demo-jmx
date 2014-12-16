@@ -26,7 +26,7 @@
                      <Button fx:id="startBtn" mnemonicParsing="false" onAction="#startSessions" text="Start" />
                      <Button fx:id="stopBtn" mnemonicParsing="false" onAction="#stopSessions" text="Stop" />
                      <Label text="Scenarios" />
-                     <Slider fx:id="threadSlider" blockIncrement="5.0" majorTickUnit="10.0" max="100.0" maxWidth="1.7976931348623157E308" min="1.0" prefWidth="400.0" showTickLabels="true" showTickMarks="true" value="10">
+                     <Slider fx:id="threadSlider" blockIncrement="5.0" majorTickUnit="10.0" max="100.0" maxWidth="1.7976931348623157E308" min="1.0" prefWidth="400.0" showTickLabels="true" showTickMarks="true" value="1">
                          <FlowPane.margin>
                              <Insets />
                          </FlowPane.margin>
