@@ -169,4 +169,9 @@ It contains the following:
 ## Level 1 ##
 
 * Publication du FrontEndServices comme MBean
-* Implémentation d'un compteur basique.
+* Implémentation d'un compteur basique: exemple: comptage du nombre d'order.
+
+## Level 2 ##
+
+* Utilisation de metrics pour mesurer des choses plus complexes comme les temps de réponses
+* Mesure du temps de réponse de l'order.
