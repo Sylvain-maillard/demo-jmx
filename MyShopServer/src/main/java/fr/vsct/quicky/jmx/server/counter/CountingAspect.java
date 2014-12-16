@@ -1,5 +1,6 @@
 package fr.vsct.quicky.jmx.server.counter;
 
+import com.codahale.metrics.MetricRegistry;
 import com.codahale.metrics.Timer;
 import com.google.common.collect.Maps;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -16,13 +17,20 @@ import java.util.Map;
 @Component
 public class CountingAspect {
 
+    Map<String, CounterMBean> counterMBeanMap = Maps.newConcurrentMap();
+
+    MetricRegistry metricRegistry = new MetricRegistry();
+
     @Around("@annotation(fr.vsct.quicky.jmx.server.counter.Counting)")
     public Object around(ProceedingJoinPoint joinPoint) throws Throwable {
+
+        CounterMBean counterMBean = counterMBeanMap.computeIfAbsent(joinPoint.toLongString(), newKey -> new CounterMBean(metricRegistry, joinPoint));
+
+        Timer.Context context = counterMBean.onCall();
         try {
-            System.out.println("it works.");
             return joinPoint.proceed();
-        } catch (Throwable throwable) {
-            throw throwable;
+        } finally {
+            context.stop();
         }
     }
 }
