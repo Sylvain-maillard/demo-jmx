@@ -1,6 +1,7 @@
 package fr.vsct.quicky.jmx.server;
 
 import com.google.common.collect.Maps;
+import fr.vsct.quicky.jmx.server.counter.Counting;
 import fr.vsct.quicky.jmx.server.model.Basket;
 import fr.vsct.quicky.jmx.server.model.Customer;
 import fr.vsct.quicky.jmx.server.model.Order;
@@ -92,6 +93,7 @@ public class MyShopDAO {
         return basket;
     }
 
+    @Counting
     public Basket addToBasket(int customerId, int productId) {
         Basket basket = getBasket(customerId);
         basket.addToLigneCommandes(getProduct(productId));

@@ -41,6 +41,7 @@ public class FrontEndServices {
      * @param id user id.
      * @return the customer informations
      */
+    @Counting
     @RequestMapping(value = "/login/{id}")
     public Customer login(@PathVariable("id") Integer id) {
         return dao.getCustomer(id);
@@ -53,6 +54,7 @@ public class FrontEndServices {
      * @param max the max price
      * @return a list of matching products.
      */
+    @Counting
     @RequestMapping(value = "/products/prices/{min}/{max}")
     public Collection<Product> allProductsBetweenPrices(@PathVariable(value = "min") int min, @PathVariable("max") int max) {
         return dao.findProductBetween(min, max).values();
@@ -65,6 +67,7 @@ public class FrontEndServices {
      * @param productId  the product to add
      * @return the current basket.
      */
+    @Counting
     @RequestMapping(value = "/basket/{customerId}/add/{productId}")
     public Basket addToBasket(@PathVariable("customerId") int customerId, @PathVariable("productId") int productId) {
         return dao.addToBasket(customerId, productId);
@@ -76,6 +79,7 @@ public class FrontEndServices {
      * @param customerId the customer id.
      * @return the basket
      */
+    @Counting
     @RequestMapping(value = "/basket/{customerId}")
     public Basket displayBasket(@PathVariable("customerId") int customerId) {
         return dao.getBasket(customerId);
@@ -100,6 +104,7 @@ public class FrontEndServices {
      * @param orderId the order id.
      * @return the order.
      */
+    @Counting
     @RequestMapping(value = "/orders/{orderId}")
     public Order displayOrder(@PathVariable("orderId") int orderId) {
         return dao.getOrder(orderId);
