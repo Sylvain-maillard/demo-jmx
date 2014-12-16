@@ -21,20 +21,13 @@ public class CountingAspect {
 
     Map<String, CounterMBean> counterMBeanMap = Maps.newConcurrentMap();
 
-    MetricRegistry metricRegistry = new MetricRegistry();
-
     @Autowired
-    MBeanExporter mBeanExporter;
+    MetricRegistry metricRegistry;
 
     @Around("@annotation(fr.vsct.quicky.jmx.server.counter.Counting)")
     public Object around(ProceedingJoinPoint joinPoint) throws Throwable {
 
-        CounterMBean counterMBean = counterMBeanMap.computeIfAbsent(joinPoint.toLongString(), newKey -> {
-            CounterMBean mBean = new CounterMBean(metricRegistry, joinPoint);
-            mBeanExporter.setEnsureUniqueRuntimeObjectNames(false);
-            mBeanExporter.registerManagedResource(mBean);
-            return mBean;
-        });
+        CounterMBean counterMBean = counterMBeanMap.computeIfAbsent(joinPoint.toLongString(), newKey -> new CounterMBean(metricRegistry, joinPoint));
 
         Timer.Context context = counterMBean.onCall();
         try {
