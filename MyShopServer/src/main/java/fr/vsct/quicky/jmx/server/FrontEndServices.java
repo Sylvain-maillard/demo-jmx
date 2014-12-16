@@ -1,5 +1,6 @@
 package fr.vsct.quicky.jmx.server;
 
+import com.codahale.metrics.Counter;
 import com.codahale.metrics.MetricRegistry;
 import com.codahale.metrics.Timer;
 import fr.vsct.quicky.jmx.server.model.Basket;
@@ -17,6 +18,8 @@ import java.util.Collection;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
+import static java.util.concurrent.TimeUnit.NANOSECONDS;
+
 /**
  * basic front controller
  */
@@ -25,7 +28,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class FrontEndServices {
 
     private final MyShopDAO dao;
-    private final AtomicInteger orderCount = new AtomicInteger();
+    private final Counter orderCount;
     private final MetricRegistry metricRegistry;
     private final Timer orderTimer;
 
@@ -33,6 +36,7 @@ public class FrontEndServices {
     public FrontEndServices(MyShopDAO dao) {
         this.dao = dao;
         this.metricRegistry = new MetricRegistry();
+        this.orderCount = metricRegistry.counter("app.Front.order.count");
         this.orderTimer = metricRegistry.timer("app.Front.order.timer");
     }
 
@@ -91,7 +95,7 @@ public class FrontEndServices {
      */
     @RequestMapping(value = "/basket/{customerId}/order")
     public Order basketOrder(@PathVariable("customerId") int customerId) {
-        orderCount.getAndIncrement();
+        orderCount.inc();
         Timer.Context time = orderTimer.time();
         try {
             return dao.saveOrder(customerId);
@@ -112,12 +116,12 @@ public class FrontEndServices {
     }
 
     @ManagedAttribute
-    public int getOrderCount() {
-        return orderCount.get();
+    public long getOrderCount() {
+        return orderCount.getCount();
     }
 
-    @ManagedAttribute(description = "mean response time in nanoseconds.")
+    @ManagedAttribute(description = "mean response time in milliseconds.")
     public double getOrderMeanResponseTime() {
-        return orderTimer.getSnapshot().getMean();
+        return NANOSECONDS.toMillis((long) orderTimer.getSnapshot().getMean());
     }
 }

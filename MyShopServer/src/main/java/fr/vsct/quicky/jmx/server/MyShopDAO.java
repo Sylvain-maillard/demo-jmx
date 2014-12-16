@@ -75,6 +75,11 @@ public class MyShopDAO {
         Order order = new Order(id, basket.getLigneCommandes(), getCustomer(basket.getCustomerId()));
         orderMap.put(id, order);
         basketMap.remove(customerId);
+        try {
+            Thread.sleep(10);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         return order;
     }
 
