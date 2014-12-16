@@ -2,6 +2,7 @@ package fr.vsct.quicky.jmx.server;
 
 import com.codahale.metrics.JmxReporter;
 import com.codahale.metrics.MetricRegistry;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;
@@ -18,14 +19,12 @@ import java.util.concurrent.TimeUnit;
 @Configuration
 public class MyShopServer {
 
-    @Bean
-    public MetricRegistry metricRegistry() {
-        return new MetricRegistry();
-    }
+    @Autowired
+    MetricRegistry metricRegistry;
 
     @Bean (initMethod = "start", destroyMethod = "stop")
     public JmxReporter jmxReporter() {
-        return JmxReporter.forRegistry(metricRegistry())
+        return JmxReporter.forRegistry(metricRegistry)
                 .inDomain(MyShopServer.class.getPackage().getName() + ".counters")
                 .convertDurationsTo(TimeUnit.MICROSECONDS)
                 .convertRatesTo(TimeUnit.MICROSECONDS)
