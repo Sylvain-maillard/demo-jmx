@@ -165,3 +165,8 @@ It contains the following:
 * Déroule un premier scenario.
 * Lance le client qui charge
 * On a quand même certaine metriques: Montre la JConsole, on voit la mémoire, le cpu, les threads qui bougent.
+
+## Level 1 ##
+
+* Publication du FrontEndServices comme MBean
+* Implémentation d'un compteur basique.

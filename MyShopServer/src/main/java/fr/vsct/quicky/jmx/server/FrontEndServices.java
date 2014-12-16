@@ -5,19 +5,24 @@ import fr.vsct.quicky.jmx.server.model.Customer;
 import fr.vsct.quicky.jmx.server.model.Order;
 import fr.vsct.quicky.jmx.server.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jmx.export.annotation.ManagedAttribute;
+import org.springframework.jmx.export.annotation.ManagedResource;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Collection;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * basic front controller
  */
 @RestController
+@ManagedResource
 public class FrontEndServices {
 
     private final MyShopDAO dao;
+    private final AtomicInteger orderCount = new AtomicInteger();
 
     @Autowired
     public FrontEndServices(MyShopDAO dao) {
@@ -79,6 +84,7 @@ public class FrontEndServices {
      */
     @RequestMapping(value = "/basket/{customerId}/order")
     public Order basketOrder(@PathVariable("customerId") int customerId) {
+        orderCount.getAndIncrement();
         return dao.saveOrder(customerId);
     }
 
@@ -93,4 +99,8 @@ public class FrontEndServices {
         return dao.getOrder(orderId);
     }
 
+    @ManagedAttribute
+    public int getOrderCount() {
+        return orderCount.get();
+    }
 }
