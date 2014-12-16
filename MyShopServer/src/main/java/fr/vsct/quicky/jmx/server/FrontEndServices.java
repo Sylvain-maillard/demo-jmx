@@ -3,6 +3,7 @@ package fr.vsct.quicky.jmx.server;
 import com.codahale.metrics.Counter;
 import com.codahale.metrics.MetricRegistry;
 import com.codahale.metrics.Timer;
+import fr.vsct.quicky.jmx.server.counter.Counting;
 import fr.vsct.quicky.jmx.server.model.Basket;
 import fr.vsct.quicky.jmx.server.model.Customer;
 import fr.vsct.quicky.jmx.server.model.Order;
@@ -28,16 +29,10 @@ import static java.util.concurrent.TimeUnit.NANOSECONDS;
 public class FrontEndServices {
 
     private final MyShopDAO dao;
-    private final Counter orderCount;
-    private final MetricRegistry metricRegistry;
-    private final Timer orderTimer;
 
     @Autowired
     public FrontEndServices(MyShopDAO dao) {
         this.dao = dao;
-        this.metricRegistry = new MetricRegistry();
-        this.orderCount = metricRegistry.counter("app.Front.order.count");
-        this.orderTimer = metricRegistry.timer("app.Front.order.timer");
     }
 
     /**
@@ -93,15 +88,10 @@ public class FrontEndServices {
      * @param customerId user id.
      * @return the new order.
      */
+    @Counting
     @RequestMapping(value = "/basket/{customerId}/order")
     public Order basketOrder(@PathVariable("customerId") int customerId) {
-        orderCount.inc();
-        Timer.Context time = orderTimer.time();
-        try {
-            return dao.saveOrder(customerId);
-        } finally {
-            time.stop();
-        }
+        return dao.saveOrder(customerId);
     }
 
     /**
@@ -113,15 +103,5 @@ public class FrontEndServices {
     @RequestMapping(value = "/orders/{orderId}")
     public Order displayOrder(@PathVariable("orderId") int orderId) {
         return dao.getOrder(orderId);
-    }
-
-    @ManagedAttribute
-    public long getOrderCount() {
-        return orderCount.getCount();
-    }
-
-    @ManagedAttribute(description = "mean response time in milliseconds.")
-    public double getOrderMeanResponseTime() {
-        return NANOSECONDS.toMillis((long) orderTimer.getSnapshot().getMean());
     }
 }
