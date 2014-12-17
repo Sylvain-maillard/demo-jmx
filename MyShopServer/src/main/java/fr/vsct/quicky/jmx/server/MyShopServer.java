@@ -27,8 +27,6 @@ public class MyShopServer {
     public JmxReporter jmxReporter() {
         return JmxReporter.forRegistry(metricRegistry())
                 .inDomain(MyShopServer.class.getPackage().getName() + ".counters")
-                .convertDurationsTo(TimeUnit.MICROSECONDS)
-                .convertRatesTo(TimeUnit.MICROSECONDS)
                 .build();
     }
 
